@@ -4,6 +4,7 @@ function main() {
     document.getElementById('searchBar').addEventListener('keyup', filterTable);
     document.getElementById('propDropdown').addEventListener('change', updateSearchBar);
     document.getElementById('sortButton').addEventListener('click', sortTable);
+    document.getElementById('sortDirectionButton').addEventListener('click', switchSortDirection);
 
     populateDropdown();
     buildTable();
@@ -124,10 +125,19 @@ function sortTable() {
         x = rows[i].getElementsByTagName("TD")[colIndex];
         y = rows[i + 1].getElementsByTagName("TD")[colIndex];
         //check if the two rows should switch place:
-        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-            //if so, mark as a switch and break the loop:
-            shouldSwitch = true;
-            break;
+        if (document.getElementById('sortDirectionButton').textContent == '^') {
+            if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                //if so, mark as a switch and break the loop:
+                shouldSwitch = true;
+                break;
+            }
+        }
+        else {
+            if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                //if so, mark as a switch and break the loop:
+                shouldSwitch = true;
+                break;
+            }
         }
         }
         if (shouldSwitch) {
@@ -137,6 +147,12 @@ function sortTable() {
         switching = true;
         }
     }
+}
+
+function switchSortDirection() {
+    let button = document.getElementById('sortDirectionButton');
+    button.textContent == '^' ? button.textContent = 'v' : button.textContent = '^';
+    sortTable();
 }
 
 main();
