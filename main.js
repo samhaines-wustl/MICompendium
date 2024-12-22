@@ -2,7 +2,9 @@ import data from './data.json' with {type: 'json'};
 
 function main() {
     document.getElementById('searchBar').addEventListener('keyup', filterTable);
+    document.getElementById('propDropdown').addEventListener('change', updateSearchBar);
 
+    populateDropdown();
     buildTable();
 }
 
@@ -48,8 +50,22 @@ function filterTable() {
     table = document.getElementById("compendium");
     tr = table.getElementsByTagName("tr");
 
+    //Figure out what column to do
+    let filterIndex = document.getElementById('propDropdown').value;
+    let filterCol = 0;
+    for (let prop in data[0]) {
+        if (Object.prototype.hasOwnProperty.call(data[0], prop)) {
+           if (prop == filterIndex) {
+            break;
+           }
+           else {
+            filterCol++;
+           }
+        }
+    }
+
     for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[0];
+        td = tr[i].getElementsByTagName("td")[filterCol];
         if (td) {
         txtValue = td.textContent || td.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
@@ -59,6 +75,23 @@ function filterTable() {
         }
         }       
     }
+}
+
+function populateDropdown() {
+    let dropdown = document.getElementById('propDropdown');
+    for (let prop in data[0]) {
+        if (Object.prototype.hasOwnProperty.call(data[0], prop)) {
+            let option = document.createElement('option');
+            option.value = prop
+            let optionText = document.createTextNode(prop);
+            option.appendChild(optionText);
+            dropdown.appendChild(option);
+        }
+    }
+}
+
+function updateSearchBar() {
+    document.getElementById("searchBar").placeholder = "Search by " + document.getElementById('propDropdown').value
 }
 
 main();
