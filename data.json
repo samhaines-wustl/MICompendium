@@ -180,6 +180,450 @@
         "curse": "Safe"
     },
     {
+        "name": "Crown of the Mithral Anthers",
+        "owner": "None",
+        "type": "Head Gear",
+        "specific_type": "Crown",
+        "attunement": false,
+        "description": "When worn, you cannot be knocked prone, gain +1 to AC, and may treat falling objects as solid ground.",
+        "lore": "The antlers fell off the elk’s body, almost too easily. In your hands, the antlers tremble. But no one else notices. You aren’t even sure if you were supposed to notice.",
+        "new": false,
+        "status": "Available",
+        "curse": "Cursed </br>  Living mithral begins invading your veins. Gain a weakness to psychic damage. If you fall unconscious while wearing it, the mithral takes over. Roll death saves as normal. However, the living mithral acts on your turn, attacking the nearest living thing."
+    },
+    {
+        "name": "Animated Shield",
+        "owner": "D'al D'ar/ Drue Pryns",
+        "type": "Shield",
+        "specific_type": "",
+        "attunement": true,
+        "description": "While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this effect, or until you are incapacitated or die, at which point the shield falls to the ground or into your hand if you have one free.",
+        "lore": "This shield is dancing on its own.",
+        "new": false,
+        "status": "Equipped",
+        "curse": "Safe"
+    },
+    {
+        "name": "Rings of Seaver",
+        "owner": "None",
+        "type": "Jewelry",
+        "specific_type": "9 Separate Rings",
+        "attunement": true,
+        "description": "You may attune to as many of these rings as you wish, and they will only take one attunement slot. When you roll a Natural 20 you can then grant a Natural 20 to an ally’s next d20 roll, one that can hear you. When this is done, that ring cracks and it no longer has this magical property",
+        "lore": "Rumor speaks that if one stares too long, glimpses of your birth and death are reenacted in the refractions of the orange topazes these rings are set with.",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Ring of Protection",
+        "owner": "Larchibald",
+        "type": "Jewelry",
+        "specific_type": "Ring",
+        "attunement": true,
+        "description": "When attuned to this ring, gain a +1 to AC and all Saving Throws",
+        "lore": "Though a simple ring, the dwarves are quite proud of this enchantment, even going so far as to bring it up whenever possible.",
+        "new": false,
+        "status": "Equipped",
+        "curse": "Safe"
+    },
+    {
+        "name": "Ring of Longevity",
+        "owner": "None",
+        "type": "Jewelry",
+        "specific_type": "Ring",
+        "attunement": true,
+        "description": "While worn the wearer ages at a slower rate. For every 100 years that pass only 1 year passes for the wearer. Additionally, the wearer is immune to aging effects of all kinds.",
+        "lore": "he fountain of youth is pure hogwash, and this ring belongs with it. Bah humbug! I’m wearing this ring and I’ve still got my damn wrinkles!",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Ring of Spell Storing",
+        "owner": "Azeban Scardust",
+        "type": "Jewelry",
+        "specific_type": "Ring",
+        "attunement": true,
+        "description": "This ring can store up to 5 levels worth of spells into it. Any creature can cast spells into it. While attuned, you can cast the stored spells in the ring regardless if you can typically cast spells. The casted spells use the original caster’s spell save DC, spell attack bonus, spellcasting ability, and spell level. But, you are treated as the current caster (for counterspell and concentration purposes). Once cast, the spell leaves the ring and frees up the space it was taking up.",
+        "lore": "“This ring carried me through thick and thin. A backup revivify comes in more handy than you think” - Otto, retired halfling adventurer",
+        "new": false,
+        "status": "Missing",
+        "curse": "Safe"
+    },
+    {
+        "name": "Ring of Blagothikus",
+        "owner": "None",
+        "type": "Jewelry",
+        "specific_type": "Ring",
+        "attunement": true,
+        "description": "While wearing this ring, you have advantage on saving throws against any spell that targets only you (not in an area of effect). In addition, if you roll a 20 for the save and the spell is 7th level or lower, the spell has no effect on you and instead targets the caster.",
+        "lore": "With a single ring, the empire of the giants crumbled. A millennium of rule reduced to rumble and ruin.",
+        "new": false,
+        "status": "Available",
+        "curse": "Cursed </br>You have disadvantage on all rolls involving a giant"
+    },
+    {
+        "name": "Ring of Spell Turning",
+        "owner": "Rang",
+        "type": "Jewelry",
+        "specific_type": "Ring",
+        "attunement": true,
+        "description": "While wearing this ring, you have advantage on saving throws against any spell that targets only you (not in an area of effect). In addition, if you roll a 20 for the save and the spell is 7th level or lower, the spell has no effect on you and instead targets the caster.",
+        "lore": "This metal, Nidastál, shimmers like mithral and hardens like adamantine. We’ll have to keep an eye out for this.",
+        "new": false,
+        "status": "Equipped",
+        "curse": "Safe"
+    },
+    {
+        "name": "Ring of Evasion",
+        "owner": "None",
+        "type": "Jewelry",
+        "specific_type": "Ring",
+        "attunement": true,
+        "description": "This ring holds a maximum of 3 charges, regaining 1d3 charges at dawn. When you fail a Dexterity saving throw, you can use your reaction to spend a charge and succeed instead.",
+        "lore": "Dodge, duck, dip, dive, and dodge",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Ring of Peterbrugge",
+        "owner": "Qheddedibuvu",
+        "type": "Jewelry",
+        "specific_type": "Ring",
+        "attunement": true,
+        "description": "As an action, you can cast the spell invisibility on yourself. This ignores all components and you do not need concentration.",
+        "lore": "The ring levitates over the split remains of its adamantine prison. It flickers, phasing in and out of reality. Perhaps there’s more to this than it appears.",
+        "new": false,
+        "status": "Equipped",
+        "curse": "Safe"
+    },
+    {
+        "name": "Necklace of Ukko",
+        "owner": "None",
+        "type": "Jewelry",
+        "specific_type": "Necklace",
+        "attunement": true,
+        "description": "Gives the wearer proficiency in INT Saving Throws",
+        "lore": "A Necklace gifted to D’al D’ar from his god, Ukko",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Love Locket of the River King",
+        "owner": "None",
+        "type": "Jewelry",
+        "specific_type": "Locket",
+        "attunement": true,
+        "description": "A golden heart-shaped locket that is activated by speaking its command phrase to it (“I love you”). For the next minute, you gain a +1 to all d20 rolls. After using this feature, you must sleep and dream of the River King in order to let it recharge.",
+        "lore": "Opening the locket is a tasteful photo of the River King. He lays nude, legs spread, a rose in his mouth, and a sizable trout covering his nether regions.",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Brooch of Shielding",
+        "owner": "D'al D'ar",
+        "type": "Jewelry",
+        "specific_type": "Brooch",
+        "attunement": true,
+        "description": "When worn, you gain resistance to force damage and immunity from the magic missile spell.",
+        "lore": "Required Protection Item #34: Brooch of Shielding.</br>When traversing through all stable or unstable planar portals, all Knights of the Gate are required to wear their issued Brooch of Shielding. If your Brooch is damaged, tampered with, or inconsistent in any way please talk to your Supervising Paladin for ways to remedy the situation.",
+        "new": false,
+        "status": "Equipped",
+        "curse": "Safe"
+    },
+    {
+        "name": "Hydra's Amulet",
+        "owner": "Azeban Scardust",
+        "type": "Jewelry",
+        "specific_type": "Amulet",
+        "attunement": true,
+        "description": "The amulet depicts a hydra with four of its five heads slain off. If you take 30 damage from a single attack from a hostile creature that is not fire damage, one of those heads grows back. Based on how many heads are on the amulet, you gain the benefits of that level and all the previous:</br></br>One Head: +1 to spell save DC and spell attack rolls</br>Two Heads: Instead, +2 to spell save DC and spell attack rolls</br>Three Heads: Advantage on saving throws against being blinded, charmed, deafened, frightened, stunned, or incapacitated</br>Four Heads: Instead, +3 to spell save DC and spell attack rolls</br>Five Heads: +2 to one mental stat of your choice and +2 to its maximum",
+        "lore": "For appearing out of the gizzard of a fallen hydra, it is a bit more intricate than you would have guessed",
+        "new": false,
+        "status": "Missing",
+        "curse": "Safe"
+    },
+    {
+        "name": "Slingstaff",
+        "owner": "None",
+        "type": "Weapon",
+        "specific_type": "Staff",
+        "attunement": false,
+        "description": "At dawn, this staff gains 1d6+1 charges, up to a maximum of 15 charges. As an action, you can cast magic missile at level 1 for 1 charge. You can increase the spell slot level for each additional charge you spend on it. Additionally, you can make a ranged weapon attack (30/120) with the slingshot on top for 1d6 bludgeoning damage. On a critical hit, this weapon deals triple damage instead of double.",
+        "lore": "Even though it was made by the hands of the halfling, the slingstaff begs for its wielder to be tall.",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Ancient Treant Staff",
+        "owner": "None",
+        "type": "Weapon",
+        "specific_type": "+1 Quarterstaff",
+        "attunement": false,
+        "description": "A simple +1 Quarterstaff, but it can be mastercraft with some metal to make a magical polearm.",
+        "lore": "Old Man Willow’s last gift to the world, and last gift from all the Treants.",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Immovable Rod",
+        "owner": "Rand",
+        "type": "Weapon",
+        "specific_type": "Staff",
+        "attunement": false,
+        "description": "With a button on one end of this iron rod, you may use your action to press the button and activate the rod. When active, the rod becomes magically fixed in place, unable to move (even by gravity) until another creature presses the button. The rod can hold up to 8000 lbs before deactivating. Lastly, A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success.",
+        "lore": "Fuck…the button’s jammed again.",
+        "new": false,
+        "status": "Equipped",
+        "curse": "Safe"
+    },
+    {
+        "name": "True Equilibrium",
+        "owner": "None",
+        "type": "Weapon",
+        "specific_type": "Greatsword",
+        "attunement": true,
+        "description": "Magical greatsword that deals an additional 2d6 bludgeoning damage on hit.",
+        "lore": "The gusts of the wind dragons back every slice.",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Evergrow Club",
+        "owner": "None",
+        "type": "Weapon",
+        "specific_type": "+1 Club",
+        "attunement": false,
+        "description": "A magical club made of winewood, gifted by the Fruit King. At dawn, 1d8 goodberries grow upon itself.",
+        "lore": "The berries taste of jokes and laughter, drawing you back to the Fruit King’s Court for another party.",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Spear of Certain Death",
+        "owner": "None",
+        "type": "Weapon",
+        "specific_type": "+1 Spear",
+        "attunement": false,
+        "description": "When you damage a creature, that creature cannot regain hit points until the start of your next turn.",
+        "lore": "Reeking of undeath, noses revolt at just the mere sight of its sharpened tip and the wounds it carves do not fade with time.",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Axe in the Stump",
+        "owner": "Rang",
+        "type": "Weapon",
+        "specific_type": "+2 Greataxe",
+        "attunement": true,
+        "description": "Gain advantage on survival checks and gain 2 temporary hit points per character level. These hit points regenerate at dawn",
+        "lore": "Rumor holds that whoever can pull the axe from the stump is destined to rule all forests and navigate even the most formidable underbrush.",
+        "new": false,
+        "status": "Equipped",
+        "curse": "Safe"
+    },
+    {
+        "name": "Warhammer of the Swamp",
+        "owner": "None",
+        "type": "Weapon",
+        "specific_type": "Warhammer",
+        "attunement": false,
+        "description": "When wet from water, double the warhammer damage dice.",
+        "lore": "Hailing from the elemental plane of water, all experienced aquanauts have mastery over this weapon.",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Vinethorn Rapier",
+        "owner": "None",
+        "type": "Weapon",
+        "specific_type": "+1 Rapier",
+        "attunement": false,
+        "description": "This rapier has +5 reach and deals an additional 1d6 piercing damage.",
+        "lore": "An extension of your body, the vinethorn will even have roses bloom on the blade when you’re happy.",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Weaponary Mimic",
+        "owner": "Qheddedibuvu",
+        "type": "Weapon",
+        "specific_type": "+2 Transforming Weapon",
+        "attunement": true,
+        "description": "<a href='https://www.reddit.com/r/DnD/comments/14v9j03/oc_using_a_mimic_as_a_magic_weapon_the_weaponary/'>Link for Description</a>",
+        "lore": "Raised from birth, mimics are tools for the mindflayers. Not animals or pets or equals",
+        "new": false,
+        "status": "Equipped",
+        "curse": "Safe"
+    },
+    {
+        "name": "Pike of the Vigilant Watchman",
+        "owner": "Dr. Bog Jackson",
+        "type": "Weapon",
+        "specific_type": "+2 Pike",
+        "attunement": true,
+        "description": "While attuned, you can’t be magically put to sleep, only need to sleep once per week, and can add your proficiency bonus to your damage rolls.",
+        "lore": "Shit! It’s like caffeine in a blade.",
+        "new": false,
+        "status": "Equipped",
+        "curse": "Safe"
+    },
+    {
+        "name": "Fool's Blade",
+        "owner": "Azeban Scardust",
+        "type": "Weapon",
+        "specific_type": "+2 Shortsword",
+        "attunement": true,
+        "description": "While wielding this blade, you get the following benefits:</br><b>Fool’s Feint</b>: As a bonus action, you can feint, choosing a creature within 5 feet of you as your target. Until the start of your next turn, you have advantage on attack rolls against the target. This can be used only once per day.</br><b>Misdirect </b>: When a creature within 60 feet of you targets you with an attack, you can use your reaction to make the creature make a DC15 INT ST. On a failed save, the attack targets another creature of your choice that is within the attacker’s reach. This can be used only once per day.",
+        "lore": "The blade flickers and shimmers, distorting its location to all observers. Even the greatest sword master can’t help but yield when dueling this blade.",
+        "new": false,
+        "status": "Missing",
+        "curse": "Safe"
+    },
+    {
+        "name": "Class IV Somsarian Dagger",
+        "owner": "Drue Pryns",
+        "type": "Weapon",
+        "specific_type": "+3 Dagger",
+        "attunement": true,
+        "description": "This dagger has an increased crit range, landing a critical hit on a 19 and 20. Additionally, on a crit, the hit creature glows until the start of your next turn. Any attack roll against a glowing creature has advantage.",
+        "lore": "As is standard in all Emeraldhorn products, when killed, a creature’s last breath, regardless if it can speak or not, utters “Slain by an Emeraldhorn blade”",
+        "new": false,
+        "status": "Equipped",
+        "curse": "Safe"
+    },
+    {
+        "name": "Class II Weltzman Glaive",
+        "owner": "D'al D'ar",
+        "type": "Weapon",
+        "specific_type": "+2 Adamantine Glaive",
+        "attunement": true,
+        "description": "At dawn, choose a type of damage. The glaive deals an extra 1d6 of that damage type for the day. When dealing the killing blow to a creature, you gain temporary hp equivalent to the damage dealt in that finishing strike.",
+        "lore": "A note accompanies this glaive. It reads, “To the start of a beautiful partnership.” It’s signed by Emeraldhorn himself and has a bottle of Dragondew White Wine. How lucky you are!",
+        "new": false,
+        "status": "Equipped",
+        "curse": "Safe"
+    },
+    {
+        "name": "Oathbow",
+        "owner": "Rang",
+        "type": "Weapon",
+        "specific_type": "Longbow",
+        "attunement": true,
+        "description": "Once per day, as part of an attack with this bow, you can make the target your sworn enemy. When you make a ranged attack against your sworn enemy, you get advantage. Additionally, your sworn enemy doesn’t benefit from cover  (besides total) and they take an additional 3d6 piercing on hit. While your sworn enemy is alive, attacking with other weapons is done with disadvantage.",
+        "lore": "With every release of the bowstring, another arrow befalls my enemy. May swift death befall you.",
+        "new": false,
+        "status": "Equipped",
+        "curse": "Safe"
+    },
+    {
+        "name": "Ring of Evasion",
+        "owner": "Azeban Scardust",
+        "type": "Weapon",
+        "specific_type": "+2 Hand Crossbow",
+        "attunement": true,
+        "description": "When you make an attack, the crossbow fires three arrows at once. Roll to hit once for all the arrows, but roll damage for each individually. These arrows can target either one target or multiple.",
+        "lore": "I’m going to need a bigger quiver.",
+        "new": false,
+        "status": "Broken",
+        "curse": "Safe"
+    },
+    {
+        "name": "Arezlor's Bracer",
+        "owner": "C'unther",
+        "type": "Weapon",
+        "specific_type": "Bracers",
+        "attunement": true,
+        "description": "These magic bracers increase in power based on the giants the wearer has slain. Once per day for 1 minute, you can activate your bracers as a bonus action, increasing your size</br></br><u>iant’s Slain and Benefits</u></br><b>Hill Giant</br>: +1 to attacks</br><b>Stone Giant</br>: +2 to attacks </br><b>Fire Giant</br>: +2 to attacks, size changed to large </br><b>Storm Giant</br>: +3 to attacks, size changed to large </br><b>Fog Giant</br>: +3 to attacks, size changed to huge",
+        "lore": "Let giants weep at your feet, for Arezlor’s message persists past his death.",
+        "new": false,
+        "status": "Equipped",
+        "curse": "Safe"
+    },
+    {
+        "name": "Water Whip",
+        "owner": "None",
+        "type": "Weapon",
+        "specific_type": "Whip",
+        "attunement": true,
+        "description": "A whip with a range of 25 feet that on hit deals an additional 3d6 cold damage. Additionally, the target must succeed on a DC 17 STR Saving Throw or be pulled up to 20 feet towards the user.",
+        "lore": "It’s wet to the touch, awkward to handle, and obtuse at first glance; however, once it’s learned, it feels as natural as an Octopus’ tentacles.",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Translucent War Pick",
+        "owner": "None",
+        "type": "Weapon",
+        "specific_type": "War Pick",
+        "attunement": true,
+        "description": "While attuned, all spells that deal piercing or force damage are upcast by 1 level for free. Additionally, when brought to the Ethereal Plane and let sit for one hour, it transforms into the: </br><b> Elysian War Pick</b>:The spells are now upcast by 2 levels for free",
+        "lore": "I’ve stared upon this pick for days now, and all that resides in my mind is a desire to meet its maker",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Tome of the Blood Blade",
+        "owner": "Big Daddy",
+        "type": "Book",
+        "specific_type": "Tome",
+        "attunement": true,
+        "description": "To attune to this item, you must spend a short rest bleeding upon this book. During the attunement, take 3 hit dice worth of necrotic damage and let your blood flow. Once you’re attuned to it, you can use a bonus action to summon the Blood Blade. </br></br>Once summoned, the Blood Blade takes the form of a scimitar made of coagulated blood. On hit, the Blood Blade does an additional 2d6 piercing damage. On a kill, you can choose to heal for 1d6 health or deal an additional 1d6 on your next attack.",
+        "lore": "The pages feel soggy and the ink reeks of iron, yet I feel compelled to read it, to study it, to devour it.",
+        "new": false,
+        "status": "",
+        "curse": "Safe"
+    },
+    {
+        "name": "Morbius' Cape",
+        "owner": "None",
+        "type": "Clothing",
+        "specific_type": "Cape",
+        "attunement": false,
+        "description": "Once per short rest you can fully negate fall damage",
+        "lore": "The iconic cape from the iconic vampire. It even has some residual morbin’ juice on it from the last time he morbed.",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
+        "name": "Cape of the Mouuntebank",
+        "owner": "Rang",
+        "type": "Clothing",
+        "specific_type": "Cape",
+        "attunement": false,
+        "description": "Once per long rest, you can cast the spell Dimension Door on yourself.",
+        "lore": "After wearing it for a few days, you notice the faint smell of brimstone lingering around you.",
+        "new": false,
+        "status": "Equipped",
+        "curse": "Safe"
+    },
+    {
+        "name": "Cloud Scarf of Firbolgs",
+        "owner": "None",
+        "type": "Clothing",
+        "specific_type": "Scarf",
+        "attunement": true,
+        "description": "While attuned, you gain proficiency in dexterity saving throws and acrobatics. Once per day, you can use an action to activate the scarf. While active, you gain an additional 5ft reach. This lasts for 1 hour.",
+        "lore": "It’s soft and cozy, wrapped around your neck. Like a hug from the sky.",
+        "new": false,
+        "status": "Available",
+        "curse": "Safe"
+    },
+    {
         "name": "",
         "owner": "",
         "type": "",
@@ -200,7 +644,8 @@
         "description": "",
         "lore": "",
         "new": false,
-        "status": ""
+        "status": "",
+        "curse": "Safe"
     },
     {
         "name": "",
@@ -211,7 +656,8 @@
         "description": "",
         "lore": "",
         "new": false,
-        "status": ""
+        "status": "",
+        "curse": "Safe"
     },
     {
         "name": "",
@@ -222,7 +668,8 @@
         "description": "",
         "lore": "",
         "new": false,
-        "status": ""
+        "status": "",
+        "curse": "Safe"
     },
     {
         "name": "",
@@ -233,7 +680,8 @@
         "description": "",
         "lore": "",
         "new": false,
-        "status": ""
+        "status": "",
+        "curse": "Safe"
     },
     {
         "name": "",
@@ -244,7 +692,8 @@
         "description": "",
         "lore": "",
         "new": false,
-        "status": ""
+        "status": "",
+        "curse": "Safe"
     },
     {
         "name": "",
@@ -255,7 +704,8 @@
         "description": "",
         "lore": "",
         "new": false,
-        "status": ""
+        "status": "",
+        "curse": "Safe"
     },
     {
         "name": "",
@@ -266,7 +716,8 @@
         "description": "",
         "lore": "",
         "new": false,
-        "status": ""
+        "status": "",
+        "curse": "Safe"
     },
     {
         "name": "",
@@ -277,7 +728,8 @@
         "description": "",
         "lore": "",
         "new": false,
-        "status": ""
+        "status": "",
+        "curse": "Safe"
     },
     {
         "name": "",
@@ -288,7 +740,8 @@
         "description": "",
         "lore": "",
         "new": false,
-        "status": ""
+        "status": "",
+        "curse": "Safe"
     },
     {
         "name": "",
@@ -299,7 +752,8 @@
         "description": "",
         "lore": "",
         "new": false,
-        "status": ""
+        "status": "",
+        "curse": "Safe"
     },
     {
         "name": "",
@@ -310,7 +764,8 @@
         "description": "",
         "lore": "",
         "new": false,
-        "status": ""
+        "status": "",
+        "curse": "Safe"
     },
     {
         "name": "",
@@ -321,7 +776,8 @@
         "description": "",
         "lore": "",
         "new": false,
-        "status": ""
+        "status": "",
+        "curse": "Safe"
     },
     {
         "name": "",
@@ -332,7 +788,8 @@
         "description": "",
         "lore": "",
         "new": false,
-        "status": ""
+        "status": "",
+        "curse": "Safe"
     },
     {
         "name": "",
@@ -343,149 +800,7 @@
         "description": "",
         "lore": "",
         "new": false,
-        "status": ""
-    },
-    {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
-        "new": false,
-        "status": ""
-    },
-    {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
-        "new": false,
-        "status": ""
-    },
-    {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
-        "new": false,
-        "status": ""
-    },
-    {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
-        "new": false,
-        "status": ""
-    },
-    {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
-        "new": false,
-        "status": ""
-    },
-    {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
-        "new": false,
-        "status": ""
-    },
-    {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
-        "new": false,
-        "status": ""
-    },
-    {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
-        "new": false,
-        "status": ""
-    },
-    {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
-        "new": false,
-        "status": ""
-    },
-    {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
-        "new": false,
-        "status": ""
-    },
-    {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
-        "new": false,
-        "status": ""
-    },
-    {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
-        "new": false,
-        "status": ""
-    },
-    {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
-        "new": false,
-        "status": ""
+        "status": "",
+        "curse": "Safe"
     }
 ]
