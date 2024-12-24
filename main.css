@@ -2,14 +2,22 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+    table-layout:fixed;
+    font-size:10px;
 }
 
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
-  
-/*tr:nth-child(even) {
-    background-color: #dddddd;
-}*/
+
+/*
+tr {
+    height: 50px;
+    white-space:nowrap;
+    overflow:hidden;
+}
