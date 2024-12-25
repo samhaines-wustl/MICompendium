@@ -46,10 +46,10 @@ function buildTable() {
                     keyText += '<span class = "curse_key keys">&#9909</span>';
                 }
                 if (data[i].new) {
-                    keyText += '<span class = "new_key keys">&#x2BCC</span>';
+                    keyText += '<span class = "new_key keys">&#11088</span>';
                 }
                 if (data[i].attunement) {
-                    keyText += '<span class = "attunement_key keys">&#x2BC5</span>';
+                    keyText += '<span class = "attunement_key keys">&#9650</span>';
                 }
                 hoverText += '<span class = "tooltip_text">' + data[i].lore + '</span>'
             }
