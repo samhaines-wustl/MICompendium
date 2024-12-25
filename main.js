@@ -17,7 +17,6 @@ function main() {
 
     populateDropdown();
     updateSearchBar();
-    //updateCheckboxFilter();
     buildTable();
 }
 
@@ -185,17 +184,16 @@ function getChildNode(parent, classesString) {
 }
 
 function filterTableUnicode() {
-    var table, tr, td, i;
+    var table, tr, td, i ,classBlacklist, passedAll;
     table = document.getElementById("compendium");
     tr = table.getElementsByTagName("tr");
 
-    let classBlacklist = getBlacklistFilter();
-    console.log(classBlacklist);
+    classBlacklist = getBlacklistFilter();
 
     for (i = 0; i < tr.length; i++) {
         td = tr[i].getElementsByTagName("td")[0];
         if (td) {
-            let passedAll = true;
+            passedAll = true;
             classBlacklist.forEach(className => {
                 if (td.getElementsByClassName(className).length > 0) { //If it does contain class name
                     tr[i].classList.add('blacklist_hidden');
@@ -210,7 +208,7 @@ function filterTableUnicode() {
 }
 
 function getBlacklistFilter() {
-    let result = [];
+    var result = [];
     if (document.getElementById('toggleAttunement').checked)
         result.push('attunement_key');
     if (document.getElementById('toggleCraftable').checked)
