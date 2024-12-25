@@ -83,7 +83,11 @@ function filterTable() {
     for (i = 0; i < tr.length; i++) {
         td = tr[i].getElementsByTagName("td")[colIndex];
         if (td) {
-            txtValue = getChildNode(td, "item_name").textContent;
+            if (colIndex == 0)
+                txtValue = getChildNode(td, "item_name").textContent;
+            else
+                txtValue = td.textContent || td.innerText;
+            
             if (txtValue.toUpperCase().indexOf(filter) > -1) {
                 tr[i].classList.remove('search_box_hidden');
             } else {
