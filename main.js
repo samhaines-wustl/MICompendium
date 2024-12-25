@@ -78,7 +78,7 @@ function filterTable() {
     tr = table.getElementsByTagName("tr");
 
     //Figure out what column to do
-    let colIndex = TABLE_COLUMNS.indexOf(document.getElementById('propDropdown').value);
+    var colIndex = TABLE_COLUMNS.indexOf(document.getElementById('propDropdown').value);
 
     for (i = 0; i < tr.length; i++) {
         td = tr[i].getElementsByTagName("td")[colIndex];
