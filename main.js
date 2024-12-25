@@ -1,7 +1,7 @@
 import data from './data.json' with {type: 'json'};
 
-let tableColumns = ['name', 'owner', 'type', 'specific_type', 'description'];
-let tableColumnsNames = ['Item', 'Owner', 'Type', "Specific Type", 'Description'];
+const TABLE_COLUMNS = ['name', 'owner', 'type', 'specific_type', 'description'];
+const TABLE_COLUMNS_NAMES = ['Item', 'Owner', 'Type', "Specific Type", 'Description'];
 
 function main() {
     document.getElementById('searchBar').addEventListener('keyup', filterTable);
@@ -9,9 +9,15 @@ function main() {
     document.getElementById('sortButton').addEventListener('click', sortTable);
     document.getElementById('sortDirectionButton').addEventListener('click', switchSortDirection);
 
+    document.getElementById('toggleAttunement').addEventListener('click', filterTableUnicode);
+    document.getElementById('toggleCraftable').addEventListener('click', filterTableUnicode);
+    document.getElementById('toggleBroken').addEventListener('click', filterTableUnicode);
+    document.getElementById('toggleCursed').addEventListener('click', filterTableUnicode);
+
 
     populateDropdown();
     updateSearchBar();
+    //updateCheckboxFilter();
     buildTable();
 }
 
@@ -21,7 +27,7 @@ function buildTable() {
     //Build Header
     let thead = document.createElement("thead");
     let row = document.createElement('tr');
-    tableColumnsNames.forEach( prop => {
+    TABLE_COLUMNS_NAMES.forEach( prop => {
         let cell = document.createElement('th');
         let cellText = document.createTextNode(prop);
         cell.appendChild(cellText);
@@ -34,7 +40,7 @@ function buildTable() {
     let tbody = document.createElement('tbody');
     for (let i in data) {
         row = document.createElement('tr');
-        tableColumns.forEach(prop => {
+        TABLE_COLUMNS.forEach(prop => {
             let cell = document.createElement('td');
             let keyText = "";
             let hoverText = "";
@@ -42,16 +48,16 @@ function buildTable() {
             cell.innerHTML = data[i][prop];
             if (prop == 'name') {
                 cell.classList.add('tooltip');
-                if (data[i].curse != 'Safe')
-                    keyText += '<span class = "curse_key keys">&#9909</span>';
                 if (data[i].new)
                     keyText += '<span class = "new_key keys">&#11088</span>';
                 if (data[i].attunement)
                     keyText += '<span class = "attunement_key keys">&#9650</span>';
-                if (data[i].status == 'Broken')
-                    keyText += '<span class = "broken_key keys">&#129702</span>';
-                else if (data[i].status == 'Craftable')  
+                if (data[i].status == 'Craftable')  
                     keyText += '<span class = "craftable_key keys">&#9874</span>';
+                else if (data[i].status == 'Broken')
+                    keyText += '<span class = "broken_key keys">&#129702</span>';
+                if (data[i].curse != 'Safe')
+                    keyText += '<span class = "curse_key keys">&#9909</span>';
 
                 hoverText += '<span class = "tooltip_text">' + data[i].lore + '</span>';
 
@@ -73,28 +79,28 @@ function filterTable() {
     tr = table.getElementsByTagName("tr");
 
     //Figure out what column to do
-    let colIndex = tableColumns.indexOf(document.getElementById('propDropdown').value);
+    let colIndex = TABLE_COLUMNS.indexOf(document.getElementById('propDropdown').value);
 
     for (i = 0; i < tr.length; i++) {
         td = tr[i].getElementsByTagName("td")[colIndex];
         if (td) {
             txtValue = getChildNode(td, "item_name").textContent;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            tr[i].style.display = "";
-        } else {
-            tr[i].style.display = "none";
-        }
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].classList.remove('search_box_hidden');
+            } else {
+                tr[i].classList.add('search_box_hidden');
+            }
         }       
     }
 }
 
 function populateDropdown() {
     let dropdown = document.getElementById('propDropdown');
-    for (let i in tableColumns) {
+    for (let i in TABLE_COLUMNS) {
 
         let option = document.createElement('option');
-        option.value = tableColumns[i]
-        let optionText = document.createTextNode(tableColumnsNames[i]);
+        option.value = TABLE_COLUMNS[i]
+        let optionText = document.createTextNode(TABLE_COLUMNS_NAMES[i]);
         option.appendChild(optionText);
         dropdown.appendChild(option);
     }
@@ -110,7 +116,7 @@ function sortTable() {
     switching = true;
 
     //Figure out what column to do
-    let colIndex = tableColumns.indexOf(document.getElementById('propDropdown').value);
+    let colIndex = TABLE_COLUMNS.indexOf(document.getElementById('propDropdown').value);
 
     /*Make a loop that will continue until
     no switching has been done:*/
@@ -176,6 +182,44 @@ function getChildNode(parent, classesString) {
             txtValue = parent.childNodes[i].textContent;
         }        
     }
+}
+
+function filterTableUnicode() {
+    var table, tr, td, i;
+    table = document.getElementById("compendium");
+    tr = table.getElementsByTagName("tr");
+
+    let classBlacklist = getBlacklistFilter();
+    console.log(classBlacklist);
+
+    for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+            let passedAll = true;
+            classBlacklist.forEach(className => {
+                if (td.getElementsByClassName(className).length > 0) { //If it does contain class name
+                    tr[i].classList.add('blacklist_hidden');
+                    passedAll = false;
+                }
+            });
+            if (passedAll) {
+                tr[i].classList.remove('blacklist_hidden');
+            }
+        }       
+    }
+}
+
+function getBlacklistFilter() {
+    let result = [];
+    if (document.getElementById('toggleAttunement').checked)
+        result.push('attunement_key');
+    if (document.getElementById('toggleCraftable').checked)
+        result.push('craftable_key');
+    if (document.getElementById('toggleBroken').checked)
+        result.push('broken_key');
+    if (document.getElementById('toggleCursed').checked)
+        result.push('curse_key');
+    return result;
 }
 
 main();

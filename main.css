@@ -69,3 +69,11 @@ tr {
 .tooltip:hover .tooltip_text {
     visibility: visible;
 }
+
+.blacklist_hidden {
+    display: none;
+}
+
+.search_box_hidden {
+    display: none;
+}

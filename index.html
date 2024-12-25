@@ -10,12 +10,25 @@
     <select name="properties" id="propDropdown"></select>
     <button id = "sortButton">Sort</button>
     <button id = "sortDirectionButton">^</button>
+
     <div>
-        <span class = "curse_key keys tooltip">&#9909</span>: Cursed 
+    Blacklist:
+    <input type="checkbox" id="toggleAttunement">
+        <label for="toggleAttunement">Attunement</label>
+    <input type="checkbox" id="toggleCraftable">
+        <label for="toggleCraftable">Craftable</label>
+    <input type="checkbox" id="toggleBroken">
+        <label for="toggleBroken">Broken</label>
+    <input type="checkbox" id="toggleCursed">
+        <label for="toggleCursed">Cursed</label>
+    </div>
+    
+    <div>
         <span class = "new_key keys">&#11088</span>: New 
         <span class = "attunement_key keys">&#9650</span>: Requires Attunement 
         <span class = "craftable_key keys">&#9874</span>: Needs to be Crafted 
         <span class = "broken_key keys">&#129702</span>: Is Broken
+        <span class = "curse_key keys tooltip">&#9909</span>: Cursed 
     </div>
     <table id="compendium"></table>
 
