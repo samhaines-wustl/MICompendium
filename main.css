@@ -34,6 +34,14 @@ tr {
     color: #e64b4b;
 }
 
+.craftable_key {
+    color: #a55b2a;
+}
+
+.broken_key {
+    color: #474747;
+}
+
 .keys {
     font-size: 20px;
 }

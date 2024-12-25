@@ -42,15 +42,16 @@ function buildTable() {
             cell.innerHTML = data[i][prop];
             if (prop == 'name') {
                 cell.classList.add('tooltip');
-                if (data[i].curse != 'Safe') {
+                if (data[i].curse != 'Safe')
                     keyText += '<span class = "curse_key keys">&#9909</span>';
-                }
-                if (data[i].new) {
+                if (data[i].new)
                     keyText += '<span class = "new_key keys">&#11088</span>';
-                }
-                if (data[i].attunement) {
+                if (data[i].attunement)
                     keyText += '<span class = "attunement_key keys">&#9650</span>';
-                }
+                if (data[i].status == 'Broken')
+                    keyText += '<span class = "broken_key keys">&#129702</span>';
+                else if (data[i].status == 'Craftable')  
+                    keyText += '<span class = "craftable_key keys">&#9874</span>';
                 hoverText += '<span class = "tooltip_text">' + data[i].lore + '</span>'
             }
             cell.innerHTML = keyText + cell.innerHTML + hoverText;
