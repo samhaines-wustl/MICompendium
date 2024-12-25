@@ -52,7 +52,10 @@ function buildTable() {
                     keyText += '<span class = "broken_key keys">&#129702</span>';
                 else if (data[i].status == 'Craftable')  
                     keyText += '<span class = "craftable_key keys">&#9874</span>';
-                hoverText += '<span class = "tooltip_text">' + data[i].lore + '</span>'
+
+                hoverText += '<span class = "tooltip_text">' + data[i].lore + '</span>';
+
+                cell.innerHTML = '<span class = "item_name">' + data[i][prop] + '</span>';
             }
             cell.innerHTML = keyText + cell.innerHTML + hoverText;
             row.appendChild(cell);
@@ -75,7 +78,7 @@ function filterTable() {
     for (i = 0; i < tr.length; i++) {
         td = tr[i].getElementsByTagName("td")[colIndex];
         if (td) {
-        txtValue = td.textContent || td.innerText;
+            txtValue = getChildNode(td, "item_name").textContent;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
             tr[i].style.display = "";
         } else {
@@ -102,7 +105,7 @@ function updateSearchBar() {
 }
 
 function sortTable() {
-    var table, rows, switching, i, x, y, shouldSwitch;
+    var table, rows, switching, i, x, xText, y, yText, shouldSwitch;
     table = document.getElementById("compendium");
     switching = true;
 
@@ -124,16 +127,27 @@ function sortTable() {
         one from current row and one from the next:*/
         x = rows[i].getElementsByTagName("TD")[colIndex];
         y = rows[i + 1].getElementsByTagName("TD")[colIndex];
+
+        //Get text contents of x and y
+        if (colIndex != 0) {
+            xText = x.innerHTML.toLowerCase();
+            yText = y.innerHTML.toLowerCase();
+        }
+        else {
+            xText = getChildNode(x, "item_name").textContent.toLowerCase();
+            yText = getChildNode(y, "item_name").textContent.toLowerCase();
+        }
+
         //check if the two rows should switch place:
         if (document.getElementById('sortDirectionButton').textContent == '^') {
-            if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+            if (xText > yText) {
                 //if so, mark as a switch and break the loop:
                 shouldSwitch = true;
                 break;
             }
         }
         else {
-            if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+            if (xText < yText) {
                 //if so, mark as a switch and break the loop:
                 shouldSwitch = true;
                 break;
@@ -153,6 +167,15 @@ function switchSortDirection() {
     let button = document.getElementById('sortDirectionButton');
     button.textContent == '^' ? button.textContent = 'v' : button.textContent = '^';
     sortTable();
+}
+
+function getChildNode(parent, classesString) {
+    for (let i = 0; i < parent.childNodes.length; i++) {
+        if (parent.childNodes[i].className == classesString) {
+            return parent.childNodes[i]
+            txtValue = parent.childNodes[i].textContent;
+        }        
+    }
 }
 
 main();
