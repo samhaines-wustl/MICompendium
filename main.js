@@ -1,6 +1,7 @@
 import data from './data.json' with {type: 'json'};
 
-let tableColumns = ['name', 'owner', 'type', 'specific_type', 'description', 'lore', 'status'];
+let tableColumns = ['name', 'owner', 'type', 'specific_type', 'description'];
+let tableColumnsNames = ['Item', 'Owner', 'Type', "Specific Type", 'Description'];
 
 function main() {
     document.getElementById('searchBar').addEventListener('keyup', filterTable);
@@ -8,7 +9,9 @@ function main() {
     document.getElementById('sortButton').addEventListener('click', sortTable);
     document.getElementById('sortDirectionButton').addEventListener('click', switchSortDirection);
 
+
     populateDropdown();
+    updateSearchBar();
     buildTable();
 }
 
@@ -18,7 +21,7 @@ function buildTable() {
     //Build Header
     let thead = document.createElement("thead");
     let row = document.createElement('tr');
-    tableColumns.forEach( prop => {
+    tableColumnsNames.forEach( prop => {
         let cell = document.createElement('th');
         let cellText = document.createTextNode(prop);
         cell.appendChild(cellText);
@@ -34,9 +37,11 @@ function buildTable() {
         tableColumns.forEach(prop => {
             let cell = document.createElement('td');
             let keyText = "";
+            let hoverText = "";
 
             cell.innerHTML = data[i][prop];
             if (prop == 'name') {
+                cell.classList.add('tooltip');
                 if (data[i].curse != 'Safe') {
                     keyText += '<span class = "curse_key keys">&#9909</span>';
                 }
@@ -46,8 +51,9 @@ function buildTable() {
                 if (data[i].attunement) {
                     keyText += '<span class = "attunement_key keys">&#x2BC5</span>';
                 }
+                hoverText += '<span class = "tooltip_text">' + data[i].lore + '</span>'
             }
-            cell.innerHTML = keyText + cell.innerHTML;
+            cell.innerHTML = keyText + cell.innerHTML + hoverText;
             row.appendChild(cell);
         });
         tbody.appendChild(row);
@@ -80,17 +86,18 @@ function filterTable() {
 
 function populateDropdown() {
     let dropdown = document.getElementById('propDropdown');
-    tableColumns.forEach(prop => {
+    for (let i in tableColumns) {
+
         let option = document.createElement('option');
-        option.value = prop
-        let optionText = document.createTextNode(prop);
+        option.value = tableColumns[i]
+        let optionText = document.createTextNode(tableColumnsNames[i]);
         option.appendChild(optionText);
         dropdown.appendChild(option);
-    });
+    }
 }
 
 function updateSearchBar() {
-    document.getElementById("searchBar").placeholder = "Search by " + document.getElementById('propDropdown').value
+    document.getElementById("searchBar").placeholder = "Search by " + document.getElementById('propDropdown').options[document.getElementById('propDropdown').selectedIndex].textContent;
 }
 
 function sortTable() {

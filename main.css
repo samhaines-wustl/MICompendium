@@ -1,18 +1,17 @@
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
     table-layout:fixed;
-    font-size:8px;
+    font-size:12px;
 }
 
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     text-overflow: ellipsis;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
 }
 
 /*
@@ -24,6 +23,7 @@ tr {
 
 .curse_key {
     color: #800080;
+    font-weight: bold;
 }
 
 .new_key {
@@ -35,5 +35,29 @@ tr {
 }
 
 .keys {
-    font-size: 12px;
+    font-size: 20px;
+}
+
+.tooltip {
+    position: relative;
+}
+  
+.tooltip .tooltip_text {
+    visibility: hidden;
+    background-color: black;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+  
+.tooltip:hover .tooltip_text {
+    visibility: visible;
 }
