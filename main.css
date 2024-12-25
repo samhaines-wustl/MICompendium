@@ -3,7 +3,7 @@ table {
     border-collapse: collapse;
     width: 100%;
     table-layout:fixed;
-    font-size:10px;
+    font-size:8px;
 }
 
 td, th {
@@ -20,4 +20,20 @@ tr {
     height: 50px;
     white-space:nowrap;
     overflow:hidden;
+}*/
+
+.curse_key {
+    color: #800080;
+}
+
+.new_key {
+    color: #ffd700;
+}
+
+.attunement_key {
+    color: #e64b4b;
+}
+
+.keys {
+    font-size: 12px;
 }

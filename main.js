@@ -1,5 +1,7 @@
 import data from './data.json' with {type: 'json'};
 
+let tableColumns = ['name', 'owner', 'type', 'specific_type', 'description', 'lore', 'status'];
+
 function main() {
     document.getElementById('searchBar').addEventListener('keyup', filterTable);
     document.getElementById('propDropdown').addEventListener('change', updateSearchBar);
@@ -16,14 +18,12 @@ function buildTable() {
     //Build Header
     let thead = document.createElement("thead");
     let row = document.createElement('tr');
-    for (let prop in data[0]) {
-        if (Object.prototype.hasOwnProperty.call(data[0], prop)) {
-            let cell = document.createElement('th');
-            let cellText = document.createTextNode(prop);
-            cell.appendChild(cellText);
-            row.appendChild(cell);
-        }
-    }
+    tableColumns.forEach( prop => {
+        let cell = document.createElement('th');
+        let cellText = document.createTextNode(prop);
+        cell.appendChild(cellText);
+        row.appendChild(cell);
+    }); 
     thead.appendChild(row);
     table.appendChild(thead);
 
@@ -31,15 +31,25 @@ function buildTable() {
     let tbody = document.createElement('tbody');
     for (let i in data) {
         row = document.createElement('tr');
-        for (let prop in data[i]) {
-            if (Object.prototype.hasOwnProperty.call(data[i], prop)) {
-                let cell = document.createElement('td');
-                cell.innerHTML = data[i][prop];
-                //let cellText = document.createTextNode(data[i][prop]);
-                //cell.appendChild(cellText);
-                row.appendChild(cell);
+        tableColumns.forEach(prop => {
+            let cell = document.createElement('td');
+            let keyText = "";
+
+            cell.innerHTML = data[i][prop];
+            if (prop == 'name') {
+                if (data[i].curse != 'Safe') {
+                    keyText += '<span class = "curse_key keys">&#9909</span>';
+                }
+                if (data[i].new) {
+                    keyText += '<span class = "new_key keys">&#x2BCC</span>';
+                }
+                if (data[i].attunement) {
+                    keyText += '<span class = "attunement_key keys">&#x2BC5</span>';
+                }
             }
-        }
+            cell.innerHTML = keyText + cell.innerHTML;
+            row.appendChild(cell);
+        });
         tbody.appendChild(row);
     }
     table.appendChild(tbody);
@@ -53,7 +63,7 @@ function filterTable() {
     tr = table.getElementsByTagName("tr");
 
     //Figure out what column to do
-    let colIndex = getColumnIndex(document.getElementById('propDropdown').value);
+    let colIndex = tableColumns.indexOf(document.getElementById('propDropdown').value);
 
     for (i = 0; i < tr.length; i++) {
         td = tr[i].getElementsByTagName("td")[colIndex];
@@ -70,34 +80,17 @@ function filterTable() {
 
 function populateDropdown() {
     let dropdown = document.getElementById('propDropdown');
-    for (let prop in data[0]) {
-        if (Object.prototype.hasOwnProperty.call(data[0], prop)) {
-            let option = document.createElement('option');
-            option.value = prop
-            let optionText = document.createTextNode(prop);
-            option.appendChild(optionText);
-            dropdown.appendChild(option);
-        }
-    }
+    tableColumns.forEach(prop => {
+        let option = document.createElement('option');
+        option.value = prop
+        let optionText = document.createTextNode(prop);
+        option.appendChild(optionText);
+        dropdown.appendChild(option);
+    });
 }
 
 function updateSearchBar() {
     document.getElementById("searchBar").placeholder = "Search by " + document.getElementById('propDropdown').value
-}
-
-function getColumnIndex(val) {
-    let index = 0;
-    for (let prop in data[0]) {
-        if (Object.prototype.hasOwnProperty.call(data[0], prop)) {
-           if (prop == val) {
-            break;
-           }
-           else {
-            index++;
-           }
-        }
-    }
-    return index;
 }
 
 function sortTable() {
@@ -106,8 +99,7 @@ function sortTable() {
     switching = true;
 
     //Figure out what column to do
-    let colIndex = getColumnIndex(document.getElementById('propDropdown').value);
-    console.log(colIndex);
+    let colIndex = tableColumns.indexOf(document.getElementById('propDropdown').value);
 
     /*Make a loop that will continue until
     no switching has been done:*/
