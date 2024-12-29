@@ -3,6 +3,8 @@ import data from './data.json' with {type: 'json'};
 const TABLE_COLUMNS = ['name', 'owner', 'type', 'specific_type', 'description'];
 const TABLE_COLUMNS_NAMES = ['Item', 'Owner', 'Type', "Specific Type", 'Description'];
 
+let tagArray = [];
+
 function main() {
     document.getElementById('searchBar').addEventListener('keyup', filterTable);
     document.getElementById('propDropdown').addEventListener('change', updateSearchBar);
@@ -14,7 +16,17 @@ function main() {
     document.getElementById('toggleBroken').addEventListener('click', filterTableUnicode);
     document.getElementById('toggleCursed').addEventListener('click', filterTableUnicode);
 
+    $(document).ready(function() {   
+        $(".chosen-select").chosen({
+           no_results_text: "Oops, nothing found!"
+         })
+    });
 
+    console.log(tagArray);
+    getTagArray();
+    console.log(tagArray);
+
+    populateTagSelect();
     populateDropdown();
     updateSearchBar();
     buildTable();
@@ -87,7 +99,7 @@ function filterTable() {
                 txtValue = getChildNode(td, "item_name").textContent;
             else
                 txtValue = td.textContent || td.innerText;
-            
+
             if (txtValue.toUpperCase().indexOf(filter) > -1) {
                 tr[i].classList.remove('search_box_hidden');
             } else {
@@ -222,6 +234,21 @@ function getBlacklistFilter() {
     if (document.getElementById('toggleCursed').checked)
         result.push('curse_key');
     return result;
+}
+
+function getTagArray() {
+    data.forEach(item => {
+        if (Object.hasOwn(item, 'tags')) {
+            item.tags.forEach(tag => {
+                if (tagArray.indexOf(tag) == -1)
+                    tagArray.push(tag);
+            });
+        }
+    });
+}
+
+function populateTagSelect() {
+    
 }
 
 main();

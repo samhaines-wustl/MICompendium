@@ -77,3 +77,7 @@ tr {
 .search_box_hidden {
     display: none;
 }
+
+.my_dropdown {
+    width: 100%;
+}

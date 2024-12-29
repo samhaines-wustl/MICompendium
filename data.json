@@ -9,7 +9,10 @@
         "lore": "“My clan leader used to wear this. They are no more. As a thanks for helping me escape.” - Lily Matterhorn",
         "new": true,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Clothing", "Wisdom", "Stat Boost", "Bonus Action", "Spellcasting", "Defense", "Aura", "AC", "Support", "Attunement"
+        ]
     },
     {
         "name": "War Mage Hood",
@@ -21,7 +24,10 @@
         "lore": "Woven specifically for generals in wizard armies. Those that wear it immediately garner respect and attention.",
         "new": true,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Attunement", "Bonus Action", "Spellcasting", "Spellcasting Focus", "Support", "Daily", "Defense", "AC", "Clothing"
+        ]
     },
     {
         "name": "Ring of Evocation",
@@ -33,7 +39,10 @@
         "lore": "Damn, why couldn’t I have been conscripted into the Sultan’s Army? This is nice!",
         "new": true,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Attunement", "Ring", "Charges", "Dawn", "Action", "Spellcasting", "Offense", "Defense", "Resistance", "Profieceny Bonus Per Day", "Reaction", "+2"
+        ]
     },
     {
         "name": "Bull's Eye Bracers",
@@ -45,7 +54,10 @@
         "lore": "Made out of leather. Indeed. Made out of finely tanned leather. Indeed. Made out of an actual Bull’s Eye. Perhaps.",
         "new": true,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Bracers", "Attunement", "Offense", "Extra Damage", "Requires Feats", "Long Rest", "Bonus Action", "Advantage"
+        ]
     },
     {
         "name": "General Flintbrace's Dagger",
@@ -57,7 +69,10 @@
         "lore": "Amazingly small. Even small by halfling standards.",
         "new": true,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Dagger", "No Attunement", "Defense", "Reaction", "+2", "AC"
+        ]
     },
     {
         "name": "Mariner's Armor",
@@ -69,7 +84,10 @@
         "lore": "“It reminds me of the mermaids,” Guillver says as he looks upon the seashell armor. ",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "No Attunement", "Armor", "Breastplate", "Swim Speed", "Defense"
+        ]
     },
     {
         "name": "Banana Armor",
@@ -81,7 +99,10 @@
         "lore": "Do you want a banana? Peel it down and go mm mm mm mm. ",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Armor", "No Attunement", "+1", "Leather Armor", "Speed Boost", "Bonus Action", "Charges", "Dawn", "Defense", "Spellcasting", "AC"
+        ]
     },
     {
         "name": "Adamantine Plate",
@@ -93,7 +114,10 @@
         "lore": "A black metal with a greenish hue, adamantine seems to absorb an unnatural amount of force.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Armor", "Plate", "Defense", "Crit Nullfication", "No Attunement"
+        ]
     },
     {
         "name": "Triceratops Hide",
@@ -105,7 +129,10 @@
         "lore": "It’s kind of tough, are you sure you stretched it correctly? I’m a medium, and this is fitting me like a small.",
         "new": false,
         "status": "Missing",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Armor", "+1", "Studded Leather", "No Attunement", "Defense", "AC"
+        ]
     },
     {
         "name": "Dwarven Plate",
@@ -117,7 +144,10 @@
         "lore": "The gold accents glimmer like the hoards of Dwarven Kings.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Armor", "Defense", "+2", "Plate", "AC", "No Attunement", "Reaction", "Movement Reduction"
+        ]
     },
     {
         "name": "Crown of Faenor",
@@ -125,11 +155,14 @@
         "type": "Head Gear",
         "specific_type": "Crown",
         "attunement": true,
-        "description": "When worn, every gemstone you find is worth 50% more. Additionally, every 10 minutes you heal 1d6 health. However, you have a strong urge to collect wealth",
+        "description": "When worn, every gemstone you find is worth 50% more. Additionally, every 10 minutes you heal 1d6 health.",
         "lore": "An ornate mithral crown worn by the Stone Giant King Faenor, a noble giant who fell victim to the Mithral Craze. Pray the craze does not fall upon you next. ",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Cursed </br> You have a strong urge to collect wealth",
+        "tags": [
+            "Crown", "Attunement", "$$$", "More Gold", "Healing", "Cursed"
+        ]
     },
     {
         "name": "Helm of the Juggernaut",
@@ -141,19 +174,25 @@
         "lore": "You are the ram of the highest mountains. You are the lightning that will strike. You are the unstoppable force. ",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Helm", "No Attunement", "Dash", "Offense", "Extra Attack"
+        ]
     },
     {
         "name": "Crown of the Marid",
         "owner": "Notch",
         "type": "Head Gear",
-        "specific_type": "Helm",
+        "specific_type": "Crown",
         "attunement": true,
         "description": "Once per day, the wearer can cast Control Water.",
         "lore": "Waves roll with the flick of your wrist and rivers part with the nod of your head. ",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Crown", "Attunement", "Daily", "Spellcasting"
+        ]
     },
     {
         "name": "Autumn's Pumpkin",
@@ -165,7 +204,10 @@
         "lore": "A jovial comrade who brings bountiful harvest to all who request or a feared inquisitor who demands proper tribute? Which will you be?",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Helm", "Attunement", "Evolving", "+1", "AC", "Advantage", "Daily", "Spellcasting", "Bonus Action", "Defense", "Offense", "Aura", "Resistance", "Speed Reduction"
+        ]
     },
     {
         "name": "Peregrine Mask",
@@ -177,7 +219,10 @@
         "lore": "Fly like an eagle, to the sea. Fly like an eagle, let my spirit carry me.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Mask", "Attunement", "Fly Speed", "Advantage", "Initiative", "Movement"
+        ]
     },
     {
         "name": "Crown of the Mithral Anthers",
@@ -189,7 +234,10 @@
         "lore": "The antlers fell off the elk’s body, almost too easily. In your hands, the antlers tremble. But no one else notices. You aren’t even sure if you were supposed to notice.",
         "new": false,
         "status": "Available",
-        "curse": "Cursed </br>  Living mithral begins invading your veins. Gain a weakness to psychic damage. If you fall unconscious while wearing it, the mithral takes over. Roll death saves as normal. However, the living mithral acts on your turn, attacking the nearest living thing."
+        "curse": "Cursed </br>  Living mithral begins invading your veins. Gain a weakness to psychic damage. If you fall unconscious while wearing it, the mithral takes over. Roll death saves as normal. However, the living mithral acts on your turn, attacking the nearest living thing.",
+        "tags": [
+            "Crown", "Weakness", "Unconscious", "+1", "AC", "Prone", "Defense", "Movement", "Cursed", "No Attunement"
+        ]
     },
     {
         "name": "Animated Shield",
@@ -201,7 +249,10 @@
         "lore": "This shield is dancing on its own.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Armor", "Shield", "Defense", "Bonus Action", "Attunement"
+        ]
     },
     {
         "name": "Rings of Seaver",
@@ -213,7 +264,10 @@
         "lore": "Rumor speaks that if one stares too long, glimpses of your birth and death are reenacted in the refractions of the orange topazes these rings are set with.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Rings", "Attunement", "Support", "Critical Hit", "Consumable", "Multiple Characters"
+        ]
     },
     {
         "name": "Ring of Protection",
@@ -225,7 +279,10 @@
         "lore": "Though a simple ring, the dwarves are quite proud of this enchantment, even going so far as to bring it up whenever possible.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Ring", "Attunement", "Defense", "+1", "AC", "Saving Throws"
+        ]
     },
     {
         "name": "Ring of Longevity",
@@ -237,7 +294,10 @@
         "lore": "he fountain of youth is pure hogwash, and this ring belongs with it. Bah humbug! I’m wearing this ring and I’ve still got my damn wrinkles!",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Ring", "Attunement", "Deaging", "Immunity"
+        ]
     },
     {
         "name": "Ring of Spell Storing",
@@ -249,7 +309,10 @@
         "lore": "“This ring carried me through thick and thin. A backup revivify comes in more handy than you think” - Otto, retired halfling adventurer",
         "new": false,
         "status": "Missing",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Ring", "Attunement", "Spellcasting"
+        ]
     },
     {
         "name": "Ring of Blagothikus",
@@ -261,7 +324,10 @@
         "lore": "With a single ring, the empire of the giants crumbled. A millennium of rule reduced to rumble and ruin.",
         "new": false,
         "status": "Available",
-        "curse": "Cursed </br>You have disadvantage on all rolls involving a giant"
+        "curse": "Cursed </br>You have disadvantage on all rolls involving a giant",
+        "tags": [
+            "Jewelry", "Ring", "Attunement", "Cursed", "Disadvantage", "Roleplay", "Advantage", "Saving Throws", "Spellcasting", "Defense"
+        ]
     },
     {
         "name": "Ring of Spell Turning",
@@ -273,7 +339,10 @@
         "lore": "This metal, Nidastál, shimmers like mithral and hardens like adamantine. We’ll have to keep an eye out for this.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Ring", "Attunement", "Advantage", "Saving Throws", "Spellcasting", "Defense"
+        ]
     },
     {
         "name": "Ring of Evasion",
@@ -285,7 +354,10 @@
         "lore": "Dodge, duck, dip, dive, and dodge",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Ring", "Attunement", "Charges", "Saving Throw", "Reaction"
+        ]
     },
     {
         "name": "Ring of Peterbrugge",
@@ -297,7 +369,10 @@
         "lore": "The ring levitates over the split remains of its adamantine prison. It flickers, phasing in and out of reality. Perhaps there’s more to this than it appears.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Ring", "Action", "Attunement", "Spellcasting"
+        ]
     },
     {
         "name": "Necklace of Ukko",
@@ -309,7 +384,10 @@
         "lore": "A Necklace gifted to D’al D’ar from his god, Ukko",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Necklace", "Profiencey", "Saving Throw", "Attunement", "Intelligence", "Defense"
+        ]
     },
     {
         "name": "Love Locket of the River King",
@@ -321,7 +399,10 @@
         "lore": "Opening the locket is a tasteful photo of the River King. He lays nude, legs spread, a rose in his mouth, and a sizable trout covering his nether regions.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Attunement", "Locket", "Command Phrase", "+1", "Daily"
+        ]
     },
     {
         "name": "Brooch of Shielding",
@@ -333,7 +414,10 @@
         "lore": "Required Protection Item #34: Brooch of Shielding.</br>When traversing through all stable or unstable planar portals, all Knights of the Gate are required to wear their issued Brooch of Shielding. If your Brooch is damaged, tampered with, or inconsistent in any way please talk to your Supervising Paladin for ways to remedy the situation.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Brooch", "Resistance", "Defense", "Immunity", "Attunement"
+        ]
     },
     {
         "name": "Hydra's Amulet",
@@ -345,7 +429,10 @@
         "lore": "For appearing out of the gizzard of a fallen hydra, it is a bit more intricate than you would have guessed",
         "new": false,
         "status": "Missing",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Amulet", "Attunement", "Evolving", "+1", "+2", "+3", "Spellcasting", "Advantage", "Defense", "Offense" 
+        ]
     },
     {
         "name": "Slingstaff",
@@ -357,7 +444,10 @@
         "lore": "Even though it was made by the hands of the halfling, the slingstaff begs for its wielder to be tall.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Staff", "No Attunement", "Daily", "Charges", "Action", "Spellcasting", "Critical Hit", "Ranged", "Melee", "Offense"
+        ]
     },
     {
         "name": "Ancient Treant Staff",
@@ -369,7 +459,10 @@
         "lore": "Old Man Willow’s last gift to the world, and last gift from all the Treants.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+1", "Quarterstaff", "No Attunement", "Evolving", "Offense", "Melee"
+        ]
     },
     {
         "name": "Immovable Rod",
@@ -381,7 +474,10 @@
         "lore": "Fuck…the button’s jammed again.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Staff", "No Attunement", "Support", "Melee"
+        ]
     },
     {
         "name": "True Equilibrium",
@@ -393,7 +489,10 @@
         "lore": "The gusts of the wind dragons back every slice.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Greatsword", "Bonus Damage", "Attunement", "Offense", "Melee"
+        ]
     },
     {
         "name": "Evergrow Club",
@@ -405,7 +504,10 @@
         "lore": "The berries taste of jokes and laughter, drawing you back to the Fruit King’s Court for another party.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+1", "Club", "No Attunement", "Daily", "Spellcasting", "Healing", "Support", "Melee"
+        ]
     },
     {
         "name": "Spear of Certain Death",
@@ -417,7 +519,10 @@
         "lore": "Reeking of undeath, noses revolt at just the mere sight of its sharpened tip and the wounds it carves do not fade with time.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+1", "Spear", "No Attunement", "Antihealing", "Offense", "Melee"
+        ]
     },
     {
         "name": "Axe in the Stump",
@@ -429,7 +534,10 @@
         "lore": "Rumor holds that whoever can pull the axe from the stump is destined to rule all forests and navigate even the most formidable underbrush.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+2", "Greataxe", "Attunement", "Advantage", "Temp HP", "Daily", "Support", "Melee"
+        ]
     },
     {
         "name": "Warhammer of the Swamp",
@@ -441,7 +549,10 @@
         "lore": "Hailing from the elemental plane of water, all experienced aquanauts have mastery over this weapon.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Warhammer", "No Attunement", "Extra Damage", "Offense", "Melee"
+        ]
     },
     {
         "name": "Vinethorn Rapier",
@@ -453,7 +564,10 @@
         "lore": "An extension of your body, the vinethorn will even have roses bloom on the blade when you’re happy.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+1", "Rapier", "No Attunement", "Extra Reach", "Extra Damage", "Offense", "Melee"
+        ]
     },
     {
         "name": "Weaponary Mimic",
@@ -465,7 +579,10 @@
         "lore": "Raised from birth, mimics are tools for the mindflayers. Not animals or pets or equals",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+2", "Transforming", "Critical Hit", "Multiple Weapons", "Offense", "Command Phrase", "Attunement", "Melee"
+        ]
     },
     {
         "name": "Pike of the Vigilant Watchman",
@@ -477,7 +594,10 @@
         "lore": "Shit! It’s like caffeine in a blade.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+2", "Pike", "Attunement", "Immunity", "Extra Damage", "Melee"
+        ]
     },
     {
         "name": "Fool's Blade",
@@ -489,7 +609,10 @@
         "lore": "The blade flickers and shimmers, distorting its location to all observers. Even the greatest sword master can’t help but yield when dueling this blade.",
         "new": false,
         "status": "Missing",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+2", "Shortsword", "Bonus Action", "Advantage", "Daily", "Reaction", "Defense", "Offense", "Melee"
+        ]
     },
     {
         "name": "Class IV Somsarian Dagger",
@@ -501,7 +624,10 @@
         "lore": "As is standard in all Emeraldhorn products, when killed, a creature’s last breath, regardless if it can speak or not, utters “Slain by an Emeraldhorn blade”",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+3", "Dagger", "Critical Hit", "Advantage", "Offense", "Support", "Melee"
+        ]
     },
     {
         "name": "Class II Weltzman Glaive",
@@ -513,7 +639,10 @@
         "lore": "A note accompanies this glaive. It reads, “To the start of a beautiful partnership.” It’s signed by Emeraldhorn himself and has a bottle of Dragondew White Wine. How lucky you are!",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+2", "Adamantine", "Glaive", "Daily", "Extra Damage", "Temp HP", "Offense", "Melee"
+        ]
     },
     {
         "name": "Oathbow",
@@ -525,10 +654,13 @@
         "lore": "With every release of the bowstring, another arrow befalls my enemy. May swift death befall you.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Longbow", "Attunement", "Daily", "Advantage", "Extra Damage", "Disadvantage", "Ranged", "Offense"
+        ]
     },
     {
-        "name": "Ring of Evasion",
+        "name": "Repeating Crossbow",
         "owner": "Azeban Scardust",
         "type": "Weapon",
         "specific_type": "+2 Hand Crossbow",
@@ -537,7 +669,10 @@
         "lore": "I’m going to need a bigger quiver.",
         "new": false,
         "status": "Broken",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+2", "Hand Crossbow", "Ranged", "Attunement", "Broken", "Extra Attack", "Offense"
+        ]
     },
     {
         "name": "Arezlor's Bracer",
@@ -549,7 +684,10 @@
         "lore": "Let giants weep at your feet, for Arezlor’s message persists past his death.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Bracers", "Attunement", "Melee", "Evolving", "Spellcasting", "Daily", "Bonus Action", "+1", "+2", "+3", "Offense"
+        ]
     },
     {
         "name": "Water Whip",
@@ -561,7 +699,10 @@
         "lore": "It’s wet to the touch, awkward to handle, and obtuse at first glance; however, once it’s learned, it feels as natural as an Octopus’ tentacles.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Whip", "Melee", "Attunement", "Extra Reach", "Extra Damage", "Damage"
+        ]
     },
     {
         "name": "Translucent War Pick",
@@ -573,7 +714,10 @@
         "lore": "I’ve stared upon this pick for days now, and all that resides in my mind is a desire to meet its maker",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "War Pick", "Melee", "Evolving", "Attunement", "Spellcasting", "Offense"
+        ]
     },
     {
         "name": "Tome of the Blood Blade",
@@ -585,7 +729,10 @@
         "lore": "The pages feel soggy and the ink reeks of iron, yet I feel compelled to read it, to study it, to devour it.",
         "new": false,
         "status": "",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Book", "Tome", "Attunement", "Short Rest", "Bonus Action", "Extra Damage", "Healing", "Offense"
+        ]
     },
     {
         "name": "Morbius' Cape",

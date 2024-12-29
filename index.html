@@ -11,6 +11,24 @@
     <button id = "sortButton">Sort</button>
     <button id = "sortDirectionButton">^</button>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+    <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+
+    <div>
+        <select data-placeholder="Begin typing a tag to filter..." multiple class="chosen-select my_dropdown" name="test">
+            <option value=""></option>
+            <option>American Black Bear</option>
+            <option>Asiatic Black Bear</option>
+            <option>Brown Bear</option>
+            <option>Giant Panda</option>
+            <option>Sloth Bear</option>
+            <option>Sun Bear</option>
+            <option>Polar Bear</option>
+            <option>Spectacled Bear</option>
+        </select>
+    </div>
+
     <div>
     Blacklist:
     <input type="checkbox" id="toggleAttunement">
