@@ -1,15 +1,83 @@
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 100%;
+    table-layout:fixed;
+    font-size:12px;
 }
 
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    /*overflow: hidden;*/
+    text-overflow: ellipsis;
+    /*white-space: nowrap;*/
+}
+
+/*
+tr {
+    height: 50px;
+    white-space:nowrap;
+    overflow:hidden;
+}*/
+
+.curse_key {
+    color: #800080;
+    font-weight: bold;
+}
+
+.new_key {
+    color: #ffd700;
+}
+
+.attunement_key {
+    color: #e64b4b;
+}
+
+.craftable_key {
+    color: #a55b2a;
+}
+
+.broken_key {
+    color: #474747;
+}
+
+.keys {
+    font-size: 20px;
+}
+
+.tooltip {
+    position: relative;
 }
   
-/*tr:nth-child(even) {
-    background-color: #dddddd;
-}*/
+.tooltip .tooltip_text {
+    visibility: hidden;
+    background-color: black;
+    width: 200px;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+  
+.tooltip:hover .tooltip_text {
+    visibility: visible;
+}
+
+.blacklist_hidden {
+    display: none;
+}
+
+.search_box_hidden {
+    display: none;
+}
+
+.my_dropdown {
+    width: 100%;
+}

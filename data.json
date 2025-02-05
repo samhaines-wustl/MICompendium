@@ -21,7 +21,10 @@
         "lore": "“My clan leader used to wear this. They are no more. As a thanks for helping me escape.” - Lily Matterhorn",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Clothing", "Wisdom", "Stat Boost", "Bonus Action", "Spellcasting", "Defense", "Aura", "AC", "Support", "Attunement"
+        ]
     },
     {
         "name": "War Mage Hood",
@@ -33,19 +36,25 @@
         "lore": "Woven specifically for generals in wizard armies. Those that wear it immediately garner respect and attention.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Attunement", "Bonus Action", "Spellcasting", "Spellcasting Focus", "Support", "Daily", "Defense", "AC", "Clothing"
+        ]
     },
     {
         "name": "Ring of Evocation",
         "owner": "None",
-        "type": "Ring",
-        "specific_type": "",
+        "type": "Jewelry",
+        "specific_type": "Ring",
         "attunement": true,
         "description": "At dawn, gain 1d4+4 charges to a maximum of 8. While wearing the ring, you may spend an action to expend 1 or more charges to cast any Evocation spell you know without expending spell slots, instead expending charges equal to the level. Additionally, when a creature makes an attack roll against you, you may gain resistance to acid, cold, fire, and lightning damage until the start of your next turn. This can used a number of times per day equal to your proficiency bonus. Lastly, at dawn you may choose a damage type, all spells that deal that damage type have a +2 to their attack roll or a +2 to their save DC.",
         "lore": "Damn, why couldn’t I have been conscripted into the Sultan’s Army? This is nice!",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Attunement", "Ring", "Charges", "Dawn", "Action", "Spellcasting", "Offense", "Defense", "Resistance", "Profieceny Bonus Per Day", "Reaction", "+2"
+        ]
     },
     {
         "name": "Bull's Eye Bracers",
@@ -57,7 +66,10 @@
         "lore": "Made out of leather. Indeed. Made out of finely tanned leather. Indeed. Made out of an actual Bull’s Eye. Perhaps.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Bracers", "Attunement", "Offense", "Extra Damage", "Requires Feats", "Long Rest", "Bonus Action", "Advantage"
+        ]
     },
     {
         "name": "General Flintbrace's Dagger",
@@ -69,7 +81,10 @@
         "lore": "Amazingly small. Even small by halfling standards.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Dagger", "No Attunement", "Defense", "Reaction", "+2", "AC"
+        ]
     },
     {
         "name": "Mariner's Armor",
@@ -81,7 +96,10 @@
         "lore": "“It reminds me of the mermaids,” Guillver says as he looks upon the seashell armor. ",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "No Attunement", "Armor", "Breastplate", "Swim Speed", "Defense"
+        ]
     },
     {
         "name": "Banana Armor",
@@ -93,7 +111,10 @@
         "lore": "Do you want a banana? Peel it down and go mm mm mm mm. ",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Armor", "No Attunement", "+1", "Leather Armor", "Speed Boost", "Bonus Action", "Charges", "Dawn", "Defense", "Spellcasting", "AC"
+        ]
     },
     {
         "name": "Adamantine Plate",
@@ -105,19 +126,25 @@
         "lore": "A black metal with a greenish hue, adamantine seems to absorb an unnatural amount of force.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Armor", "Plate", "Defense", "Crit Nullfication", "No Attunement"
+        ]
     },
     {
         "name": "Triceratops Hide",
         "owner": "Azeban Scardust",
         "type": "Armor",
-        "specific_type": "+1 Studded Leather armor",
+        "specific_type": "+1 Studded Leather",
         "attunement": false,
-        "description": "",
+        "description": "+1 Studded Leather Armor",
         "lore": "It’s kind of tough, are you sure you stretched it correctly? I’m a medium, and this is fitting me like a small.",
         "new": false,
         "status": "Missing",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Armor", "+1", "Studded Leather", "No Attunement", "Defense", "AC"
+        ]
     },
     {
         "name": "Dwarven Plate",
@@ -129,7 +156,10 @@
         "lore": "The gold accents glimmer like the hoards of Dwarven Kings.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Armor", "Defense", "+2", "Plate", "AC", "No Attunement", "Reaction", "Movement Reduction"
+        ]
     },
     {
         "name": "Crown of Faenor",
@@ -137,11 +167,14 @@
         "type": "Head Gear",
         "specific_type": "Crown",
         "attunement": true,
-        "description": "When worn, every gemstone you find is worth 50% more. Additionally, every 10 minutes you heal 1d6 health. However, you have a strong urge to collect wealth",
+        "description": "When worn, every gemstone you find is worth 50% more. Additionally, every 10 minutes you heal 1d6 health.",
         "lore": "An ornate mithral crown worn by the Stone Giant King Faenor, a noble giant who fell victim to the Mithral Craze. Pray the craze does not fall upon you next. ",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Cursed </br> You have a strong urge to collect wealth",
+        "tags": [
+            "Crown", "Attunement", "$$$", "More Gold", "Healing", "Cursed"
+        ]
     },
     {
         "name": "Helm of the Juggernaut",
@@ -153,19 +186,25 @@
         "lore": "You are the ram of the highest mountains. You are the lightning that will strike. You are the unstoppable force. ",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Helm", "No Attunement", "Dash", "Offense", "Extra Attack"
+        ]
     },
     {
         "name": "Crown of the Marid",
         "owner": "Notch",
         "type": "Head Gear",
-        "specific_type": "Helm",
+        "specific_type": "Crown",
         "attunement": true,
         "description": "Once per day, the wearer can cast Control Water.",
         "lore": "Waves roll with the flick of your wrist and rivers part with the nod of your head. ",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Crown", "Attunement", "Daily", "Spellcasting"
+        ]
     },
     {
         "name": "Autumn's Pumpkin",
@@ -177,7 +216,10 @@
         "lore": "A jovial comrade who brings bountiful harvest to all who request or a feared inquisitor who demands proper tribute? Which will you be?",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Helm", "Attunement", "Evolving", "+1", "AC", "Advantage", "Daily", "Spellcasting", "Bonus Action", "Defense", "Offense", "Aura", "Resistance", "Speed Reduction"
+        ]
     },
     {
         "name": "Peregrine Mask",
@@ -189,7 +231,10 @@
         "lore": "Fly like an eagle, to the sea. Fly like an eagle, let my spirit carry me.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Mask", "Attunement", "Fly Speed", "Advantage", "Initiative", "Movement"
+        ]
     },
     {
         "name": "Crown of the Mithral Anthers",
@@ -201,19 +246,25 @@
         "lore": "The antlers fell off the elk’s body, almost too easily. In your hands, the antlers tremble. But no one else notices. You aren’t even sure if you were supposed to notice.",
         "new": false,
         "status": "Available",
-        "curse": "Cursed </br>  Living mithral begins invading your veins. Gain a weakness to psychic damage. If you fall unconscious while wearing it, the mithral takes over. Roll death saves as normal. However, the living mithral acts on your turn, attacking the nearest living thing."
+        "curse": "Cursed </br>  Living mithral begins invading your veins. Gain a weakness to psychic damage. If you fall unconscious while wearing it, the mithral takes over. Roll death saves as normal. However, the living mithral acts on your turn, attacking the nearest living thing.",
+        "tags": [
+            "Crown", "Weakness", "Unconscious", "+1", "AC", "Prone", "Defense", "Movement", "Cursed", "No Attunement"
+        ]
     },
     {
         "name": "Animated Shield",
         "owner": "D'al D'ar/ Drue Pryns",
-        "type": "Shield",
-        "specific_type": "",
+        "type": "Armor",
+        "specific_type": "Shield",
         "attunement": true,
         "description": "While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free. The shield remains animated for 1 minute, until you use a bonus action to end this effect, or until you are incapacitated or die, at which point the shield falls to the ground or into your hand if you have one free.",
         "lore": "This shield is dancing on its own.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Armor", "Shield", "Defense", "Bonus Action", "Attunement"
+        ]
     },
     {
         "name": "Rings of Seaver",
@@ -225,7 +276,10 @@
         "lore": "Rumor speaks that if one stares too long, glimpses of your birth and death are reenacted in the refractions of the orange topazes these rings are set with.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Rings", "Attunement", "Support", "Critical Hit", "Consumable", "Multiple Characters"
+        ]
     },
     {
         "name": "Ring of Protection",
@@ -237,7 +291,10 @@
         "lore": "Though a simple ring, the dwarves are quite proud of this enchantment, even going so far as to bring it up whenever possible.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Ring", "Attunement", "Defense", "+1", "AC", "Saving Throws"
+        ]
     },
     {
         "name": "Ring of Longevity",
@@ -249,7 +306,10 @@
         "lore": "he fountain of youth is pure hogwash, and this ring belongs with it. Bah humbug! I’m wearing this ring and I’ve still got my damn wrinkles!",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Ring", "Attunement", "Deaging", "Immunity"
+        ]
     },
     {
         "name": "Ring of Spell Storing",
@@ -261,7 +321,10 @@
         "lore": "“This ring carried me through thick and thin. A backup revivify comes in more handy than you think” - Otto, retired halfling adventurer",
         "new": false,
         "status": "Missing",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Ring", "Attunement", "Spellcasting"
+        ]
     },
     {
         "name": "Ring of Blagothikus",
@@ -273,7 +336,10 @@
         "lore": "With a single ring, the empire of the giants crumbled. A millennium of rule reduced to rumble and ruin.",
         "new": false,
         "status": "Available",
-        "curse": "Cursed </br>You have disadvantage on all rolls involving a giant"
+        "curse": "Cursed </br>You have disadvantage on all rolls involving a giant",
+        "tags": [
+            "Jewelry", "Ring", "Attunement", "Cursed", "Disadvantage", "Roleplay", "Advantage", "Saving Throws", "Spellcasting", "Defense"
+        ]
     },
     {
         "name": "Ring of Spell Turning",
@@ -285,7 +351,10 @@
         "lore": "This metal, Nidastál, shimmers like mithral and hardens like adamantine. We’ll have to keep an eye out for this.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Ring", "Attunement", "Advantage", "Saving Throws", "Spellcasting", "Defense"
+        ]
     },
     {
         "name": "Ring of Evasion",
@@ -297,7 +366,10 @@
         "lore": "Dodge, duck, dip, dive, and dodge",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Ring", "Attunement", "Charges", "Saving Throw", "Reaction"
+        ]
     },
     {
         "name": "Ring of Peterbrugge",
@@ -309,7 +381,10 @@
         "lore": "The ring levitates over the split remains of its adamantine prison. It flickers, phasing in and out of reality. Perhaps there’s more to this than it appears.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Ring", "Action", "Attunement", "Spellcasting"
+        ]
     },
     {
         "name": "Necklace of Ukko",
@@ -321,7 +396,10 @@
         "lore": "A Necklace gifted to D’al D’ar from his god, Ukko",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Necklace", "Profiencey", "Saving Throw", "Attunement", "Intelligence", "Defense"
+        ]
     },
     {
         "name": "Love Locket of the River King",
@@ -333,7 +411,10 @@
         "lore": "Opening the locket is a tasteful photo of the River King. He lays nude, legs spread, a rose in his mouth, and a sizable trout covering his nether regions.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Attunement", "Locket", "Command Phrase", "+1", "Daily"
+        ]
     },
     {
         "name": "Brooch of Shielding",
@@ -345,7 +426,10 @@
         "lore": "Required Protection Item #34: Brooch of Shielding.</br>When traversing through all stable or unstable planar portals, all Knights of the Gate are required to wear their issued Brooch of Shielding. If your Brooch is damaged, tampered with, or inconsistent in any way please talk to your Supervising Paladin for ways to remedy the situation.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Brooch", "Resistance", "Defense", "Immunity", "Attunement"
+        ]
     },
     {
         "name": "Hydra's Amulet",
@@ -357,7 +441,10 @@
         "lore": "For appearing out of the gizzard of a fallen hydra, it is a bit more intricate than you would have guessed",
         "new": false,
         "status": "Missing",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Jewelry", "Amulet", "Attunement", "Evolving", "+1", "+2", "+3", "Spellcasting", "Advantage", "Defense", "Offense" 
+        ]
     },
     {
         "name": "Slingstaff",
@@ -369,7 +456,10 @@
         "lore": "Even though it was made by the hands of the halfling, the slingstaff begs for its wielder to be tall.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Staff", "No Attunement", "Daily", "Charges", "Action", "Spellcasting", "Critical Hit", "Ranged", "Melee", "Offense"
+        ]
     },
     {
         "name": "Ancient Treant Staff",
@@ -381,7 +471,10 @@
         "lore": "Old Man Willow’s last gift to the world, and last gift from all the Treants.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+1", "Quarterstaff", "No Attunement", "Evolving", "Offense", "Melee"
+        ]
     },
     {
         "name": "Immovable Rod",
@@ -393,7 +486,10 @@
         "lore": "Fuck…the button’s jammed again.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Staff", "No Attunement", "Support", "Melee"
+        ]
     },
     {
         "name": "True Equilibrium",
@@ -405,7 +501,10 @@
         "lore": "The gusts of the wind dragons back every slice.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Greatsword", "Bonus Damage", "Attunement", "Offense", "Melee"
+        ]
     },
     {
         "name": "Evergrow Club",
@@ -417,7 +516,10 @@
         "lore": "The berries taste of jokes and laughter, drawing you back to the Fruit King’s Court for another party.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+1", "Club", "No Attunement", "Daily", "Spellcasting", "Healing", "Support", "Melee"
+        ]
     },
     {
         "name": "Spear of Certain Death",
@@ -429,7 +531,10 @@
         "lore": "Reeking of undeath, noses revolt at just the mere sight of its sharpened tip and the wounds it carves do not fade with time.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+1", "Spear", "No Attunement", "Antihealing", "Offense", "Melee"
+        ]
     },
     {
         "name": "Axe in the Stump",
@@ -441,7 +546,10 @@
         "lore": "Rumor holds that whoever can pull the axe from the stump is destined to rule all forests and navigate even the most formidable underbrush.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+2", "Greataxe", "Attunement", "Advantage", "Temp HP", "Daily", "Support", "Melee"
+        ]
     },
     {
         "name": "Warhammer of the Swamp",
@@ -453,7 +561,10 @@
         "lore": "Hailing from the elemental plane of water, all experienced aquanauts have mastery over this weapon.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Warhammer", "No Attunement", "Extra Damage", "Offense", "Melee"
+        ]
     },
     {
         "name": "Vinethorn Rapier",
@@ -465,7 +576,10 @@
         "lore": "An extension of your body, the vinethorn will even have roses bloom on the blade when you’re happy.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+1", "Rapier", "No Attunement", "Extra Reach", "Extra Damage", "Offense", "Melee"
+        ]
     },
     {
         "name": "Weaponary Mimic",
@@ -477,7 +591,10 @@
         "lore": "Raised from birth, mimics are tools for the mindflayers. Not animals or pets or equals",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+2", "Transforming", "Critical Hit", "Multiple Weapons", "Offense", "Command Phrase", "Attunement", "Melee"
+        ]
     },
     {
         "name": "Pike of the Vigilant Watchman",
@@ -489,7 +606,10 @@
         "lore": "Shit! It’s like caffeine in a blade.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+2", "Pike", "Attunement", "Immunity", "Extra Damage", "Melee"
+        ]
     },
     {
         "name": "Fool's Blade",
@@ -501,7 +621,10 @@
         "lore": "The blade flickers and shimmers, distorting its location to all observers. Even the greatest sword master can’t help but yield when dueling this blade.",
         "new": false,
         "status": "Missing",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+2", "Shortsword", "Bonus Action", "Advantage", "Daily", "Reaction", "Defense", "Offense", "Melee"
+        ]
     },
     {
         "name": "Class IV Somsarian Dagger",
@@ -513,7 +636,10 @@
         "lore": "As is standard in all Emeraldhorn products, when killed, a creature’s last breath, regardless if it can speak or not, utters “Slain by an Emeraldhorn blade”",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+3", "Dagger", "Critical Hit", "Advantage", "Offense", "Support", "Melee"
+        ]
     },
     {
         "name": "Class II Weltzman Glaive",
@@ -525,7 +651,10 @@
         "lore": "A note accompanies this glaive. It reads, “To the start of a beautiful partnership.” It’s signed by Emeraldhorn himself and has a bottle of Dragondew White Wine. How lucky you are!",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+2", "Adamantine", "Glaive", "Daily", "Extra Damage", "Temp HP", "Offense", "Melee"
+        ]
     },
     {
         "name": "Oathbow",
@@ -537,10 +666,13 @@
         "lore": "With every release of the bowstring, another arrow befalls my enemy. May swift death befall you.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Longbow", "Attunement", "Daily", "Advantage", "Extra Damage", "Disadvantage", "Ranged", "Offense"
+        ]
     },
     {
-        "name": "Ring of Evasion",
+        "name": "Repeating Crossbow",
         "owner": "Azeban Scardust",
         "type": "Weapon",
         "specific_type": "+2 Hand Crossbow",
@@ -549,7 +681,10 @@
         "lore": "I’m going to need a bigger quiver.",
         "new": false,
         "status": "Broken",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "+2", "Hand Crossbow", "Ranged", "Attunement", "Broken", "Extra Attack", "Offense"
+        ]
     },
     {
         "name": "Arezlor's Bracer",
@@ -561,7 +696,10 @@
         "lore": "Let giants weep at your feet, for Arezlor’s message persists past his death.",
         "new": false,
         "status": "Equipped",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Bracers", "Attunement", "Melee", "Evolving", "Spellcasting", "Daily", "Bonus Action", "+1", "+2", "+3", "Offense"
+        ]
     },
     {
         "name": "Water Whip",
@@ -573,7 +711,10 @@
         "lore": "It’s wet to the touch, awkward to handle, and obtuse at first glance; however, once it’s learned, it feels as natural as an Octopus’ tentacles.",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "Whip", "Melee", "Attunement", "Extra Reach", "Extra Damage", "Damage"
+        ]
     },
     {
         "name": "Translucent War Pick",
@@ -585,7 +726,10 @@
         "lore": "I’ve stared upon this pick for days now, and all that resides in my mind is a desire to meet its maker",
         "new": false,
         "status": "Available",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Weapon", "War Pick", "Melee", "Evolving", "Attunement", "Spellcasting", "Offense"
+        ]
     },
     {
         "name": "Tome of the Blood Blade",
@@ -597,7 +741,10 @@
         "lore": "The pages feel soggy and the ink reeks of iron, yet I feel compelled to read it, to study it, to devour it.",
         "new": false,
         "status": "",
-        "curse": "Safe"
+        "curse": "Safe",
+        "tags": [
+            "Book", "Tome", "Attunement", "Short Rest", "Bonus Action", "Extra Damage", "Healing", "Offense"
+        ]
     },
     {
         "name": "Morbius' Cape",
@@ -636,183 +783,351 @@
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
+        "name": "Gargoyle's Checkboard",
+        "owner": "D'al D'ar",
+        "type": "Wondrous Item",
+        "specific_type": "Gaming Set",
+        "attunement": false,
+        "description": "When two parties shake over this checkerboard, a game of ADVANCED CHECKERS begins. The loser loses the hand they shook with.",
+        "lore": "A game made for kings, but played by jesters.",
         "new": false,
-        "status": "",
+        "status": "Equipped",
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
+        "name": "Seeing Stone",
+        "owner": "C'unther",
+        "type": "Wondrous Item",
+        "specific_type": "Communication Device",
+        "attunement": false,
+        "description": "A collection of polished magic stones that work across any distance or plane. When you look through one, you can choose any other seeing stone to see through, as if you were standing in its place.",
+        "lore": "Whoever stares in will always be greeted by someone staring back.",
         "new": false,
-        "status": "",
+        "status": "Equipped",
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
+        "name": "Ghost Parrot",
+        "owner": "C'unther",
+        "type": "Wondrous Item",
+        "specific_type": "Pet",
+        "attunement": false,
+        "description": "The parrot has 4 charges, and you can use an action to have the parrot speak and expend a charge to create an eerie, spellbinding tune. Each creature of your choice within 30 feet of you that hears the tune must succeed on a DC 15 Wisdom Saving Throw or become frightened of you for 1 minute. A creature that succeeds on its saving throw is immune to the parrot for 24 hours. At dawn, the parrot regains 1d4 charges.",
+        "lore": "Riddled with misfortune, the ghost parrot is seen as an omen of death by sailors. This has led to abandonment and abuse, leaving the parrot forever lonely in its afterlife.",
         "new": false,
-        "status": "",
+        "status": "Equipped",
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
+        "name": "Beholder's Bane Ruby",
+        "owner": "None",
+        "type": "Wondrous Item",
+        "specific_type": "Gem",
+        "attunement": false,
+        "description": "Once per long rest, you can use your reaction to activate the Ruby. When activated, any magical effects within 5 feet of the Ruby are immune to antimagic effects.",
+        "lore": "Plundered from the nightmares of a beholder, these rubies are not from this plane nor this universe. A pure dream concoction.",
         "new": false,
-        "status": "",
+        "status": "Bag of Holding",
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
+        "name": "Winewood Figurine",
+        "owner": "Big Daddy",
+        "type": "Wondrous Item",
+        "specific_type": "Statuette",
+        "attunement": false,
+        "description": "Upon speaking the figurine’s command word, a White Stallion Warhorse is summoned in its place. If the command word is spoken while the warhorse is still alive, it transforms back into the figurine. However, if the warhorse dies, you must wait until after a short rest to summon it again. ",
+        "lore": "Carved from wood hailing from the Fruit Court, this figurine contains the embodiment of an ideal stallion.",
         "new": false,
-        "status": "",
+        "status": "Equipped",
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
+        "name": "Banner of the Krig Rune",
+        "owner": "None",
+        "type": "Wondrous Item",
+        "specific_type": "Banner",
         "attunement": true,
-        "description": "",
-        "lore": "",
+        "description": "A red banner with the Krig Rune (Jotun Rune of War) dead center. For the rune to be active, the banner must be unfurled via an action. However, if the banner is affixed to a pole that is at least 10ft long, it can be permanently unfurled. While unfurled:</br>You can see all invisible creatures within 20ft of the banner</br>As a bonus action, you can cause the banner to emanate courage. This causes you and all allies within 20ft to be immune to the frightened condition. This lasts for 10 minutes and can be done 1/short rest.</br>As a bonus action, you can invoke the banner’s defensive might. Any ranged attack roll that targets you or an ally has disadvantage as long as the target is within 20ft of the banner. This lasts for 1 minute and can be done 1/short rest.</br></br>Lastly, you can transfer the banner's magic to a place by tracing the krig rune on the ground with your finger. The point where you trace it becomes the center of a spherical area of magic that has a 500-foot radius and that is fixed to the place. The transfer takes 8 hours of work that requires the banner to be within 5 feet of you during which you choose creatures, creature types, or both that will benefit from the magic. In the end, the banner is destroyed, and the area gains the following property:</br>While in the 500-foot-radius sphere, the creatures you chose during the transfer process are immune to the frightened condition and gain a +1 bonus to attack rolls and AC.",
+        "lore": "This rune has touched the fingers of all the great Giant Warlords of Old, and their knowledge and prowess will soon flow to you.",
         "new": false,
-        "status": "",
+        "status": "Available",
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
+        "name": "Skull Lord Skull",
+        "owner": "Big Daddy",
+        "type": "Wondrous Item",
+        "specific_type": "Skull",
         "attunement": true,
-        "description": "",
-        "lore": "",
+        "description": "Once attuned, you gain resistance to cold, lightning, necrotic, and poison damage. After 1d10 days, the skull disintegrates.",
+        "lore": "While you sleep, you can hear a faint cackling echoing in your dreams…",
         "new": false,
-        "status": "",
+        "status": "Equipped",
+        "curse": "Cursed </br> Always start with 2 failed death saving throws"
+    },
+    {
+        "name": "Horn of the Winter Spirit",
+        "owner": "None",
+        "type": "Wondrous Item",
+        "specific_type": "Statuette",
+        "attunement": false,
+        "description": "As a free action (even as a reaction when you drop to 0 hp), you break the horn of the Winter Spirit in half, becoming engulfed in primordial power. For one minute, you transform into the Avatar of the Winter Spirit. Your skin becomes an icy blue, you grow larger than life, and wherever you step snow appears. Once the minute is up, your body disintegrates into a snowy powder. The following are the powers gained while transformed:</br>Increase maximum HP by 150 and increase your size to Large or Huge (your choice)</br>Gain all the benefits of a long rest, 2 Legendary Resistances, an immunity to cold damage, and an additional turn in initiative</br>At any point, you can change the damage type of any attack or spell to cold</br>Gain the passive Aura of Hoarfrost: When a creature ends its turn within 60ft of you, you can choose to make it roll a DC 21 Strength saving throw. On a failed save, it takes 6d8 cold damage and becomes vulnerable to thunder, cold, and bludgeoning damage until the end of its next turn. If it fails by 5 or more, it is also restrained until the end of its next turn. A creature killed while restrained from this aura shatters, destroying its body. On a success, it takes half damage only.</br>Gain the breath attack Frigid Breath (Recharge 5-6): You exhale a 30-foot cone of frigid air. Each creature in the area must succeed on a DC 21 Constitution saving throw, taking 8d6 cold plus 6d8 thunder damage on a failed save, or take half as much damage on a success.</br>Gain the reaction Icy Refraction: When you are forced to make a saving throw against a spell, you may cast a copy of it, using the original caster’s save DC. The original spell takes effect first. ",
+        "lore": "Winter will rejoice in its newfound home.",
+        "new": false,
+        "status": "Available",
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
+        "name": "Camembert du Bongo",
+        "owner": "Machu",
+        "type": "Wondrous Item",
+        "specific_type": "Instrument",
         "attunement": true,
-        "description": "",
-        "lore": "",
+        "description": "While attuned, you gain a +2 to your spell save attack and spell save DC. Additionally, once per day, you may use an action to regain a use of Bardic Inspiration.",
+        "lore": "It’s made with love, and love is always the most delicious ingredient.",
         "new": false,
-        "status": "",
+        "status": "Equipped",
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
+        "name": "Gem of Incalculable Wealth",
+        "owner": "None",
+        "type": "Wondrous Item",
+        "specific_type": "Gem",
+        "attunement": false,
+        "description": "The gem may be used as any spell component that has a gold cost, without the gem being consumed in the process. However, after the spell has been cast, the gem cannot be used in the same way for a number of days = 1d4*spell lvl. Additionally, if you attempt to sell this item, the buyer must succeed on a DC 18 INT Save or fall under a spell of madness due to trying to calculate its large worth. While mad, the buyer shows great fear, anger, and sadness towards the gem and its owner for 1 minute.",
+        "lore": "This color. This clarity. This cut. This carat. By God!",
         "new": false,
-        "status": "",
+        "status": "Available",
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
+        "name": "Bead of Force",
+        "owner": "None",
+        "type": "Consumable",
+        "specific_type": "4 beads",
+        "attunement": false,
+        "description": "You can use an action to throw the bead up to 60 feet. The bead explodes on impact and is destroyed. Each creature within a 10-foot radius of where the bead landed must succeed on a DC 15 Dexterity saving throw or take 5d4 force damage. A sphere of transparent force then encloses the area for 1 minute. Any creature that failed the save and is completely within the area is trapped inside this sphere. Creatures that succeeded on the save, or are partially within the area, are pushed away from the center of the sphere until they are no longer inside it. Only breathable air can pass through the sphere's wall. No attack or other effect can.</br></br>An enclosed creature can use its action to push against the sphere's wall, moving the sphere up to half the creature's walking speed. The sphere can be picked up, and its magic causes it to weigh only 1 pound, regardless of the weight of creatures inside.",
+        "lore": "In your hand, they shake and shiver and quiver, their magic energy compressed and immense. ",
         "new": false,
-        "status": "",
+        "status": "Available",
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
+        "name": "Staff of the Magi",
+        "owner": "None",
+        "type": "Wand",
+        "specific_type": "Magic Staff",
         "attunement": true,
-        "description": "",
-        "lore": "",
+        "description": "<a href='https://roll20.net/compendium/dnd5e/Staff%20of%20the%20Magi#content'>It’s broken. Split right in two. Extraplanar energy pours out of its fractured halves. </a>",
+        "lore": "Even the artifacts of past ages cannot withstand the foolishness that comes with pride. Pride and Wizardry, name a more perfect couple.",
         "new": false,
-        "status": "",
+        "status": "Broken",
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
+        "name": "Death Knight's Maul",
+        "owner": "None",
+        "type": "Weapon",
+        "specific_type": "+3 Maul",
         "attunement": true,
-        "description": "",
-        "lore": "",
+        "description": "You have advantage on saving throws and other magical effects. On top of that, your strength increases by 2. Lastly, due to being forged with Baatorian Great Steel, this maul deals 2d8 instead of 2d6.",
+        "lore": "“That which comes forth from such a foul beast shall be purged with no hesitation. No matter the strength, courage, or vitality it grants, those who think they can wield it only display their true colors to others: Cowardice.” - Bulwark of Yurian",
         "new": false,
-        "status": "",
+        "status": "Broken",
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
+        "name": "Corundum Totem",
+        "owner": "None",
+        "type": "Wondrous Item",
+        "specific_type": "Statuette",
         "attunement": true,
-        "description": "",
-        "lore": "",
+        "description": "Once per day as a bonus action, your skin hardens into pure corundum. This grants you resistance to all damage, if you already have resistance it turns into immunity, for 1 minute. However, if you fall to 0 hp while transformed, the totem cracks and breaks while also granting you an automatic failed Death Saving Throw. You may end the transformation as a free action.",
+        "lore": "The Mythical Duergar Kingdom of Gracklstugh ruled over the entire Underdark at their peak. Now all that remains are their artifacts. The Corundum Totem is part of a set of 4 totems called the Pillars of Planets. Multiple Totems of this set can be forged together to combine their abilities into one item.",
         "new": false,
-        "status": "",
+        "status": "Broken",
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
-        "attunement": true,
-        "description": "",
-        "lore": "",
+        "name": "King Faenor's Maul",
+        "owner": "None",
+        "type": "Weapon",
+        "specific_type": "Maul",
+        "attunement": false,
+        "description": "Deals 6d6 bludgeoning damage but you have disadvantage on the attack if you aren’t size huge or greater.",
+        "lore": "In my memory, he still was great. He never failed. Never got the madness. Never had his fall from grace.",
         "new": false,
-        "status": "",
+        "status": "Craftable",
         "curse": "Safe"
     },
     {
-        "name": "",
-        "owner": "",
-        "type": "",
-        "specific_type": "",
+        "name": "Amulet of Magic Resistance",
+        "owner": "None",
+        "type": "Jewelry",
+        "specific_type": "Amulet",
         "attunement": true,
-        "description": "",
-        "lore": "",
+        "description": "Grants advantage on all saving throws against spells and magical effects",
+        "lore": "It's kind of slimy and drips onto my shirt. But, it does help against those pesky monsters…",
         "new": false,
-        "status": "",
+        "status": "Craftable",
+        "curse": "Safe"
+    },
+    {
+        "name": "Froghemoth Hide",
+        "owner": "None",
+        "type": "Armor",
+        "specific_type": "Scale Mail",
+        "attunement": true,
+        "description": "Grants resistance to fire and lightning damage.",
+        "lore": "Interesting. When I wear this around Bullywugs they don’t attack. Instead, they offer me sacrifices. This must be studied further.",
+        "new": false,
+        "status": "Craftable",
+        "curse": "Safe"
+    },
+    {
+        "name": "Mishi-Peshu Pelt",
+        "owner": "None",
+        "type": "Clothing",
+        "specific_type": "cloak",
+        "attunement": false,
+        "description": "Grants 60ft of darkvision to the wearer.",
+        "lore": "Gather round kids as I tell you the tale of how I wrestled the Fearsome Mishi-Peshu and got this gruesome scar!",
+        "new": false,
+        "status": "Craftable",
+        "curse": "Safe"
+    },
+    {
+        "name": "Wings of Flying",
+        "owner": "None",
+        "type": "Clothing",
+        "specific_type": "Cloak",
+        "attunement": true,
+        "description": "You can use an action to transform the cloak into a pair of Roc Wings for 1 hour or until you use an action to dismiss them. The wings give you a flying speed of 60 ft. When they disappear, you can’t use them again for 1d12 hours.",
+        "lore": "We're soarin'</br>Flyin'</br>There's not a star in heaven</br>That we can't reach",
+        "new": false,
+        "status": "Craftable",
+        "curse": "Safe"
+    },
+    {
+        "name": "Roc Brooch",
+        "owner": "None",
+        "type": "Jewelry",
+        "specific_type": "Brooch",
+        "attunement": false,
+        "description": "As a reaction, you activate the Roc Brooch for 10 minutes. While active, it grants the holder immunity to fall damage and the holder only falls 60ft per round (instead of 500ft). Once used, you can’t use it again for 1d12 hours.",
+        "lore": "Building: Survived. Canyon: Survived. Mountain: Survived.",
+        "new": false,
+        "status": "Craftable",
+        "curse": "Safe"
+    },
+    {
+        "name": "Leon Plate",
+        "owner": "None",
+        "type": "Armor",
+        "specific_type": "+1 Plate Mail",
+        "attunement": true,
+        "description": "When worn, you gain advantage on Wisdom Saving Throws. Additionally, the Leon Plate has a maximum of three charges. As a reaction to being hit by a melee or ranged attack, you can spend a charge and make the attack deal minimum damage. You gain three charges on a long rest.",
+        "lore": "Some say the lion centered on the chest plate symbolizes valor. Others resilience. For me, it stands for my ironclad will. ",
+        "new": false,
+        "status": "Craftable",
+        "curse": "Safe"
+    },
+    {
+        "name": "Armor of Resistance",
+        "owner": "None",
+        "type": "Armor",
+        "specific_type": "+1 Leather",
+        "attunement": true,
+        "description": "Each day at dawn, choose one of the chromatic damage types to become resistant to.",
+        "lore": "The rainbow is magical. Its brilliance cannot be quantified or replicated. But this comes close.",
+        "new": false,
+        "status": "Craftable",
+        "curse": "Safe"
+    },
+    {
+        "name": "Prismhawk Brooch",
+        "owner": "None",
+        "type": "Jewelry",
+        "specific_type": "Brooch",
+        "attunement": false,
+        "description": "As a reaction to failing a saving throw, you can activate the brooch and, instead, pass the saving throw. Then, roll a d6 and gain a weakness to the corresponding damage on the table below. After a long rest, you may remove one weakness.",
+        "lore": "Day 9. Even being near a candle hurts. I will never be rid of this fragility.",
+        "new": false,
+        "status": "Craftable",
+        "curse": "Safe"
+    },
+    {
+        "name": "Prismhawk Helmet",
+        "owner": "None",
+        "type": "Head Gear",
+        "specific_type": "Helm",
+        "attunement": true,
+        "description": "Grants perception proficiency. Additionally, when rolling death saving throws in sunlight, treat a roll of 7 or higher as a success and a 19-20 as a critical success.",
+        "lore": "May the sun, in all its glory, shine down upon me, casting all my shadows, faults, and demons to bleakness, and lift up my groveling body for another day.",
+        "new": false,
+        "status": "Craftable",
+        "curse": "Safe"
+    },
+    {
+        "name": "Prismhawk Greataxe",
+        "owner": "None",
+        "type": "Weapon",
+        "specific_type": "Greataxe",
+        "attunement": true,
+        "description": "Grants perception proficiency. Additionally, when rolling death saving throws in sunlight, treat a roll of 7 or higher as a success and a 19-20 as a critical success.",
+        "lore": "May the sun, in all its glory, shine down upon me, casting all my shadows, faults, and demons to bleakness, and lift up my groveling body for another day.",
+        "new": false,
+        "status": "Craftable",
+        "curse": "Safe"
+    },
+    {
+        "name": "Chaac's Platemail",
+        "owner": "None",
+        "type": "Armor",
+        "specific_type": "+3 Platemail",
+        "attunement": true,
+        "description": "Grants immunity to lightning damage. When you are hit by lightning damage, your movement speed doubles until the end of your next turn.",
+        "lore": "When lighting strikes, it is not thunder that roars, but you.",
+        "new": false,
+        "status": "Craftable",
+        "curse": "Safe"
+    },
+    {
+        "name": "Wand of Lightning",
+        "owner": "None",
+        "type": "Wand",
+        "specific_type": "Wand",
+        "attunement": true,
+        "description": "This wand has 8 maximum charges, and at dawn gains 1d6+1. As an action, you can spend 3 charges to cast Lightning Bolt or 6 charges to cast Chain Lightning. You can increase the spell slot level by one for each additional charge you expend. If you expend this wand’s last charge, roll a d20. On a 1, the wand is destroyed.",
+        "lore": "Though it looks more like a lightning rod than a wand, you can’t help but feel wizardly while wielding. ",
+        "new": false,
+        "status": "Craftable",
+        "curse": "Safe"
+    },
+    {
+        "name": "Plasma Gauntlet",
+        "owner": "None",
+        "type": "Weapon",
+        "specific_type": "Gauntlet",
+        "attunement": true,
+        "description": "The gauntlet has a maximum of three charges. When you hit a melee attack, you gain one charge. When you make a melee attack you can spend three charges to gain advantage on that attack. Once per long rest, you can cast the spell Lightning Bolt with a DC 15 save. ",
+        "lore": "Copper is the best dancer when it rains.",
+        "new": false,
+        "status": "Craftable",
+        "curse": "Safe"
+    },
+    {
+        "name": "Plasma Cannon",
+        "owner": "None",
+        "type": "Weapon",
+        "specific_type": "Gun",
+        "attunement": true,
+        "description": "This martial ranged weapon (Range 120/360, Reload 2, two-handed) deals 6d8 lightning damage on hit. It requires a <b>Concentrated Tempest Cartridge (CTC)</b>, a magically jarred thunderstorm, for ammunition, which costs 1000gp each. ",
+        "lore": "“Are you sure this is safe? My hair’s standing up.”</br>“Come on! Don’t be chicken, it's just a little shock.”",
+        "new": false,
+        "status": "Craftable",
         "curse": "Safe"
     }
 ]

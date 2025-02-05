@@ -6,11 +6,48 @@
 </header>
 
 <body>
-    <input type="text" id="searchBar" placeholder="Search by name">
+    <input type="text" id="searchBar" placeholder="Default Text">
     <select name="properties" id="propDropdown"></select>
     <button id = "sortButton">Sort</button>
     <button id = "sortDirectionButton">^</button>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+    <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+
+    <div>
+        <select data-placeholder="Begin typing a tag to filter..." multiple class="chosen-select my_dropdown" name="test">
+            <option value=""></option>
+            <option>American Black Bear</option>
+            <option>Asiatic Black Bear</option>
+            <option>Brown Bear</option>
+            <option>Giant Panda</option>
+            <option>Sloth Bear</option>
+            <option>Sun Bear</option>
+            <option>Polar Bear</option>
+            <option>Spectacled Bear</option>
+        </select>
+    </div>
+
+    <div>
+    Blacklist:
+    <input type="checkbox" id="toggleAttunement">
+        <label for="toggleAttunement">Attunement</label>
+    <input type="checkbox" id="toggleCraftable">
+        <label for="toggleCraftable">Craftable</label>
+    <input type="checkbox" id="toggleBroken">
+        <label for="toggleBroken">Broken</label>
+    <input type="checkbox" id="toggleCursed">
+        <label for="toggleCursed">Cursed</label>
+    </div>
+    
+    <div>
+        <span class = "new_key keys">&#11088</span>: New 
+        <span class = "attunement_key keys">&#9650</span>: Requires Attunement 
+        <span class = "craftable_key keys">&#9874</span>: Needs to be Crafted 
+        <span class = "broken_key keys">&#129702</span>: Is Broken
+        <span class = "curse_key keys tooltip">&#9909</span>: Cursed 
+    </div>
     <table id="compendium"></table>
 
     <script type="module" src="main.js"></script>
