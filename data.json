@@ -9,7 +9,10 @@
         "lore": "Ripped straight out of the perpetual haste engine on the Bringer’s Ship, you still aren’t sure how it can conduct this kind of magic without imposing lethargy or the mental weight of concentration. ",
         "new": true,
         "status": "Available",
-        "curse": "This was manufactured by Zellon, it would be smart to assume he is tracking and studying it in some way"
+        "curse": "Cursed </br> This was manufactured by Zellon, it would be smart to assume he is tracking and studying it in some way",
+        "tags": [
+            "Jewelry", "Attunement", "Spellcasting", "Cursed", "Bonus Action", "Offense", "Defense", "Daily"
+        ]
     },
     {
         "name": "Sash of Fortitude",
