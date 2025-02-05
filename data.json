@@ -1,5 +1,17 @@
 [
     {
+        "name": "Bangles of Haste",
+        "owner": "None",
+        "type": "Jewelry",
+        "specific_type": "Bangles",
+        "attunement": true,
+        "description": "As a bonus action, you can hit the bangles on your wrists together, resulting in Haste being cast on you. You don’t have to maintain concentration and you aren’t affected by lethargy when the spell ends. Once this is used, it can’t be used again until next dawn.",
+        "lore": "Ripped straight out of the perpetual haste engine on the Bringer’s Ship, you still aren’t sure how it can conduct this kind of magic without imposing lethargy or the mental weight of concentration. ",
+        "new": true,
+        "status": "Available",
+        "curse": "This was manufactured by Zellon, it would be smart to assume he is tracking and studying it in some way"
+    },
+    {
         "name": "Sash of Fortitude",
         "owner": "None",
         "type": "Clothing",
@@ -7,7 +19,7 @@
         "attunement": true,
         "description": "You gain a +1 to Wisdom. As a bonus action, you can cast a spell into the Sash. Glowing like a warm hearth, you emit an aura of 10ft around you that lasts for 1 minute or until you fall unconscious. This aura provides a bonus to AC equal to the spell level cast into the sash divided by two.",
         "lore": "“My clan leader used to wear this. They are no more. As a thanks for helping me escape.” - Lily Matterhorn",
-        "new": true,
+        "new": false,
         "status": "Available",
         "curse": "Safe"
     },
@@ -19,7 +31,7 @@
         "attunement": true,
         "description": "As a bonus action, you may raise the hood. With the hood raised, it acts as a spellcasting focus for you. The requirement of a free hand is waved for spells requiring somatic components as well. Additionally, you may wield two shields at the same time, gaining the benefits from both. Lastly, as a bonus action, you can command all allies within 60ft that can hear you. They can use their reaction to take an action immediately. This can only be used once per day.",
         "lore": "Woven specifically for generals in wizard armies. Those that wear it immediately garner respect and attention.",
-        "new": true,
+        "new": false,
         "status": "Available",
         "curse": "Safe"
     },
@@ -31,7 +43,7 @@
         "attunement": true,
         "description": "At dawn, gain 1d4+4 charges to a maximum of 8. While wearing the ring, you may spend an action to expend 1 or more charges to cast any Evocation spell you know without expending spell slots, instead expending charges equal to the level. Additionally, when a creature makes an attack roll against you, you may gain resistance to acid, cold, fire, and lightning damage until the start of your next turn. This can used a number of times per day equal to your proficiency bonus. Lastly, at dawn you may choose a damage type, all spells that deal that damage type have a +2 to their attack roll or a +2 to their save DC.",
         "lore": "Damn, why couldn’t I have been conscripted into the Sultan’s Army? This is nice!",
-        "new": true,
+        "new": false,
         "status": "Available",
         "curse": "Safe"
     },
@@ -43,7 +55,7 @@
         "attunement": true,
         "description": "Every consecutive successful attack made with a ranged weapon while wearing these bracers increases your damage bonus by 1. This extra bonus begins at 0, increasing up to a maximum of 10, and persists in between turns. It resets back to 0 if you use your action to do anything other than an attack with your ranged weapon on your turn, or if you fail to hit your target with an attack roll.</br></br> During a long rest, you may choose one synergy that the Bracers gain. The attuned creature must have the associated feat to pick that synergy:</br><b>Archery Fighting Style</b>: You can use a bonus action to give yourself advantage on your next attack roll on the current turn. You can only use this feature if you haven't moved during this turn, and after using it, your speed is 0 until the end of the current turn.</br><b>Sharpshooter Feat</b>: You can choose to take an extra -2 penalty to the attack roll, and if that attack hits, you roll one of the weapon's damage dice one additional time and add it to the attack's damage.</br><b>Crossbow Expert Feat</b>: If you attack a creature within 5 feet of you with a hand crossbow, or within 10 feet of you with a heavy crossbow, their damage dice increase to a d8 and a d12 respectively.</br><b>Elven Accuracy Feat</b>: While wearing these bracers, ranged weapon attacks up to 60 feet made in darkness, both magical and nonmagical, are not made at disadvantage.",
         "lore": "Made out of leather. Indeed. Made out of finely tanned leather. Indeed. Made out of an actual Bull’s Eye. Perhaps.",
-        "new": true,
+        "new": false,
         "status": "Available",
         "curse": "Safe"
     },
@@ -55,7 +67,7 @@
         "attunement": false,
         "description": "When you get hit by an attack, you may use your reaction to parry the attack and gaina temporary +2 AC.",
         "lore": "Amazingly small. Even small by halfling standards.",
-        "new": true,
+        "new": false,
         "status": "Available",
         "curse": "Safe"
     },
